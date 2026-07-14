@@ -39,7 +39,7 @@ ots info forecasts/call-paraguay-france-2026-07-04T093933089Z.json.ots
 - Metric = 3-outcome Brier score (home/draw/away), lower is better. Scored only when the market resolves.
 - Every result is published — there is no delete button.
 
-## Scoreboard as of 2026-07-08 (11 matches)
+## Scoreboard as of 2026-07-14 (15 matches)
 
 | Date | Match | Model H/D/A % | Market H/D/A % | Result | Brier model | Brier market |
 |---|---|---|---|---|---|---|
@@ -54,8 +54,12 @@ ots info forecasts/call-paraguay-france-2026-07-04T093933089Z.json.ots
 | 2026-07-07 | United States – Belgium | 32 / 28 / 40 | 38 / 27 / 34 | away | 0.546 | 0.653 |
 | 2026-07-07 | Argentina – Egypt | 60 / 24 / 16 | 72 / 19 / 8 | home | 0.241 | 0.122 |
 | 2026-07-07 | Switzerland – Colombia | 30 / 32 / 38 | 26 / 31 / 42 | draw | 0.693 | 0.720 |
+| 2026-07-09 | France – Morocco | 56 / 25 / 19 | 62 / 25 / 14 | home | 0.288 | 0.225 |
+| 2026-07-10 | Spain – Belgium | 55 / 24 / 21 | 59 / 24 / 17 | home | 0.304 | 0.250 |
+| 2026-07-11 | Norway – England | 29 / 22 / 49 | 24 / 25 / 50 | draw | 0.935 | 0.866 |
+| 2026-07-12 | Argentina – Switzerland | 54 / 25 / 22 | 57 / 27 / 16 | draw | 0.906 | 0.893 |
 
-**Running result: the market wins most nights (7–4). The model leads on average Brier — 0.549 vs 0.554 — a margin far too thin to mean anything at n=11, and we say so.** The model's four wins all came on nights the consensus favourite failed (two draws, two upsets); the market's seven came when the script held. That's the honest shape of an argument with an efficient market. Live board: [neuportal.ai/experiment](https://neuportal.ai/experiment)
+**Running result: the market is ahead 11–4 on head-to-head Brier, and ahead on average Brier too — 0.555 vs 0.565.** The model's four wins all came on nights the consensus favourite failed (two draws, two upsets); the market took the other eleven when the script held. We are behind on both counts, and it stays on the board — the point isn't to claim we beat an efficient market, it's to make exactly how often we don't impossible to hide. Live board: [neuportal.ai/experiment](https://neuportal.ai/experiment)
 
 ## Proof layers beyond this repo
 
