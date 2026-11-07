@@ -34,7 +34,7 @@ Each `.json` is the original stamped artifact, byte for byte. Modifying a single
 
 ## Verify it yourself
 
-**Option A — no install (30 seconds):** go to [opentimestamps.org](https://opentimestamps.org), drag in any `.json` file and its `.ots` file. You'll get: *"Bitcoin attests data existed as of block N"* — with the block's date. Compare that date to the match kickoff.
+**Option A — no install (30 seconds):** go to [opentimestamps.org](https://opentimestamps.org), drag in the `.ots` file first, then its `.json` file (order matters: a file dropped first is treated as a new stamp, not a check). You'll get: *"Bitcoin attests data existed as of block N"* — with the block's date. Compare that date to the match kickoff.
 
 **Option B — command line** (`./verify.sh` checks all proofs and takes a few minutes):
 

@@ -25,7 +25,7 @@ echo
 if [ "$fail" -eq 0 ]; then
   echo "Done. Proofs still pending Bitcoin confirmation: $pending"
   echo "For trustless verification against your own node: ots verify <file>.ots"
-  echo "No node? Drag the .json + .json.ots pair into https://opentimestamps.org"
+  echo "No node? On https://opentimestamps.org drop the .ots file first, then its .json"
 else
   echo "Some proofs failed — see above."
   exit 1
