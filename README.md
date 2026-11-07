@@ -1,26 +1,42 @@
 # NeuPortal Experiment — Public Proofs
 
-Raw, verifiable evidence for the [NeuPortal forecast experiment](https://neuportal.ai/experiment): our AI's football probabilities are **locked before every match, hashed into Bitcoin via [OpenTimestamps](https://opentimestamps.org), and Brier-scored against the prediction-market price** frozen at the same instant. Wins and losses both stay on the board.
+Raw, verifiable evidence for the [NeuPortal forecast experiment](https://neuportal.ai/experiment): every forecast is **sealed before the event**, timestamped into Bitcoin with OpenTimestamps, then scored against the market.
 
 This repo exists so you can check us **without trusting us**.
+
+## Current result (7 November 2026)
+
+- 7,294 forecasts in the ledger, 6,957 resolved.
+- Brier score: **ours 0.1936, the market's 0.1605**. Lower is better, so **the market is ahead**.
+- Hit rate 73%, which says little on its own: it ignores how confident each forecast was.
+- By track: weather 6,263, crypto 754, sports 176, markets 63, politics 23, tech 15. Most of the record is weather markets, so read the total with that in mind.
 
 ## What's in here
 
 ```
 forecasts/
-  call-<match>-<locked-at>.json       ← the forecast exactly as locked (probabilities + timestamp)
-  call-<match>-<locked-at>.json.ots   ← OpenTimestamps proof anchoring that file into Bitcoin
-  baseline-2026-07-03.json(.ots)      ← first batch of calls (matches of Jul 2–4), stamped together
-verify.sh                             ← loops over every proof and verifies it
+  crypto-<sealed-at>-<symbol>.json(.ots)   ← daily price forecasts: median, 50% core, 80% band
+  pm-calls-<sealed-at>.json(.ots)          ← batches of prediction-market calls
+  poll-<week>-open/result.json(.ots)       ← weekly community poll, votes as counts only
+  call-<match>-<locked-at>.json(.ots)      ← World Cup calls, July 2026
+  baseline-2026-07-03.json(.ots)           ← first batch of calls, stamped together
+superseded/                                ← sealed but never published, see its README
+void-2026-10-24-duplicate/                 ← a duplicate set sealed by mistake, see its README
+verify.sh                                  ← loops over every proof and reports its Bitcoin block
 ```
 
-Each `.json` is the original stamped artifact — byte-for-byte. Modifying a single character breaks its proof. The `.ots` files are **upgraded** (Bitcoin block attestations embedded), so verification does not depend on any server being online — only on the Bitcoin blockchain.
+Each `.json` is the original stamped artifact, byte for byte. Modifying a single character breaks its proof.
+
+**Known gaps, stated up front:**
+- The newest files carry a pending proof until Bitcoin confirms them, usually within hours. They are upgraded in later updates.
+- `crypto-2026-08-17T111934Z-AVAXUSDT.json` has no proof at all. It was never stamped, so treat it as unsealed.
+- Forecasts of 2026-10-24 in `void-2026-10-24-duplicate/` were sealed by our own mistake and are not scored. We kept them rather than delete them.
 
 ## Verify it yourself
 
 **Option A — no install (30 seconds):** go to [opentimestamps.org](https://opentimestamps.org), drag in any `.json` file and its `.ots` file. You'll get: *"Bitcoin attests data existed as of block N"* — with the block's date. Compare that date to the match kickoff.
 
-**Option B — command line:**
+**Option B — command line** (`./verify.sh` checks all proofs and takes a few minutes):
 
 ```bash
 pip install opentimestamps-client
@@ -32,14 +48,14 @@ ots info forecasts/call-paraguay-france-2026-07-04T093933089Z.json.ots
 
 **What you are checking:** the file containing our probabilities existed **before** the block timestamp — and therefore before kickoff. Nobody, including us, can backdate into Bitcoin.
 
-## The scoring rules (committed before the first result)
+## Football scoring rules (committed before the first result)
 
 - One forecast per match, locked pre-kickoff. Revisions are allowed but never hidden — every earlier call keeps its own stamp and the public board shows the revision count. **Current revision count: 0.**
 - Benchmark = Polymarket price snapshot taken at (or immediately before) the moment our call locked — never after.
 - Metric = 3-outcome Brier score (home/draw/away), lower is better. Scored only when the market resolves.
 - Every result is published — there is no delete button.
 
-## Scoreboard as of 2026-07-14 (15 matches)
+## World Cup scoreboard, as of 2026-07-14 (15 matches)
 
 | Date | Match | Model H/D/A % | Market H/D/A % | Result | Brier model | Brier market |
 |---|---|---|---|---|---|---|

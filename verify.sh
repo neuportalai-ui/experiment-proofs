@@ -5,6 +5,7 @@ set -euo pipefail
 cd "$(dirname "$0")/forecasts"
 
 fail=0
+pending=0
 for ots in *.ots; do
   src="${ots%.ots}"
   if [ ! -f "$src" ]; then
@@ -12,16 +13,17 @@ for ots in *.ots; do
   fi
   echo "=== $src"
   # `ots info` prints the embedded Bitcoin block attestation(s); grep them out.
-  if ots info "$ots" | grep -q "BitcoinBlockHeaderAttestation"; then
-    ots info "$ots" | grep "BitcoinBlockHeaderAttestation" | sed 's/^ */  anchored: /'
+  blocks="$(ots info "$ots" | grep "BitcoinBlockHeaderAttestation" || true)"
+  if [ -n "$blocks" ]; then
+    echo "$blocks" | sed 's/^ */  anchored: /'
   else
-    echo "  NO BITCOIN ATTESTATION EMBEDDED (run: ots upgrade $ots)"; fail=1
+    echo "  pending: not confirmed in Bitcoin yet (try: ots upgrade $ots)"; pending=$((pending+1))
   fi
 done
 
 echo
 if [ "$fail" -eq 0 ]; then
-  echo "All proofs carry embedded Bitcoin block attestations."
+  echo "Done. Proofs still pending Bitcoin confirmation: $pending"
   echo "For trustless verification against your own node: ots verify <file>.ots"
   echo "No node? Drag the .json + .json.ots pair into https://opentimestamps.org"
 else

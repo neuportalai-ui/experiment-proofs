@@ -1,0 +1,4211 @@
+{
+  "called_from_utc": "2026-10-04T04:16:59+00:00",
+  "called_to_utc": "2026-10-04T04:16:59+00:00",
+  "calls": [
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-06T00:00:00+00:00",
+      "event": "Bitcoin above ___ on October 6?",
+      "kind": "terminal-above",
+      "levels": [
+        88000.0
+      ],
+      "liquidity_at_call": 41103.042,
+      "market_id": "5126860",
+      "market_p_at_call": 0.055,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.0716,
+      "our_p_untilted": 0.0672,
+      "question": "Will the price of Bitcoin be above $88,000 on October 6?",
+      "sample": {
+        "conditional": true,
+        "lean": 0.46,
+        "mean_move": 0.00073,
+        "median_move": -9e-05,
+        "n_independent": 1369,
+        "n_overlapping": 1369
+      },
+      "spot": 84808.11,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 13929.108530000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 2,
+      "deadline": "2026-10-07T00:00:00+00:00",
+      "event": "Ethereum above ___ on October 7?",
+      "kind": "terminal-above",
+      "levels": [
+        2900.0
+      ],
+      "liquidity_at_call": 34949.29068,
+      "market_id": "5156678",
+      "market_p_at_call": 0.0225,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.0515,
+      "our_p_untilted": 0.0461,
+      "question": "Will the price of Ethereum be above $2,900 on October 7?",
+      "sample": {
+        "conditional": true,
+        "lean": 0.633,
+        "mean_move": 0.00402,
+        "median_move": 0.00361,
+        "n_independent": 184,
+        "n_overlapping": 369
+      },
+      "spot": 2694.51,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 11662.006708
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 27,
+      "deadline": "2026-11-01T00:00:00+00:00",
+      "event": "What price will XRP hit in October?",
+      "kind": "touch-high",
+      "levels": [
+        2.2
+      ],
+      "liquidity_at_call": 18453.1219,
+      "market_id": "5170820",
+      "market_p_at_call": 0.06,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.148,
+      "our_p_untilted": 0.1378,
+      "question": "Will XRP reach $2.20 in October?",
+      "sample": {
+        "conditional": true,
+        "lean": 0.6,
+        "mean_move": 0.01829,
+        "median_move": -0.02273,
+        "n_independent": 54,
+        "n_overlapping": 1480
+      },
+      "spot": 1.4899,
+      "subject": "XRPUSDT",
+      "theme": "XRP",
+      "themes": [
+        "XRP",
+        "Ripple",
+        "Monthly",
+        "Hit Price",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5541.627737000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 27,
+      "deadline": "2026-11-01T03:59:00+00:00",
+      "event": "Largest Company end of October 2026?",
+      "kind": "rank",
+      "levels": [
+        1
+      ],
+      "liquidity_at_call": 22331.77894,
+      "market_id": "5180413",
+      "market_p_at_call": 0.9515,
+      "method": "market cap = price x shares outstanding (SEC cover page); P(rank 1) from 2487 JOINT historical windows of 27 trading days — one calendar window applied to every rival at once, so their correlation is the one that actually happened rather than an assumed one. Contenders we cannot price (Saudi Aramco, SpaceX) are excluded; the venue's own prices bound that blind spot at 0.5%.",
+      "our_p": 0.924,
+      "our_p_untilted": null,
+      "question": "Will NVIDIA be the largest company in the world by market cap on October 31, 2026?",
+      "sample": {
+        "blind": {
+          "saudi aramco": 0.0015,
+          "spacex": 0.004
+        },
+        "blind_weight": 0.0055,
+        "n_independent": 92,
+        "rivals": [
+          "NVDA",
+          "AAPL",
+          "GOOGL",
+          "MSFT",
+          "AMZN",
+          "AVGO",
+          "TSLA"
+        ],
+        "shares_as_of": {
+          "AAPL": "2026-07-17",
+          "AMZN": "2026-07-22",
+          "AVGO": "2026-08-28",
+          "GOOGL": "2026-06-30",
+          "MSFT": "2026-07-23",
+          "NVDA": "2026-08-21",
+          "TSLA": "2026-07-16"
+        },
+        "windows": 2487
+      },
+      "spot": 5638194926453.0,
+      "subject": "NVDA",
+      "theme": "Tech",
+      "themes": [
+        "Tech",
+        "Market cap"
+      ],
+      "track": "tech",
+      "unit": "rank",
+      "volume_at_call": 27322.350400999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 4,
+      "deadline": "2026-10-09T00:00:00+00:00",
+      "event": "Ethereum above ___ on October 9?",
+      "kind": "terminal-above",
+      "levels": [
+        2900.0
+      ],
+      "liquidity_at_call": 26889.7934,
+      "market_id": "5207011",
+      "market_p_at_call": 0.055,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.1549,
+      "our_p_untilted": 0.1413,
+      "question": "Will the price of Ethereum be above $2,900 on October 9?",
+      "sample": {
+        "conditional": true,
+        "lean": 0.687,
+        "mean_move": 0.00774,
+        "median_move": 0.00374,
+        "n_independent": 92,
+        "n_overlapping": 368
+      },
+      "spot": 2694.51,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 8436.260945
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in London on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 3747.78334,
+      "market_id": "5225191",
+      "market_p_at_call": 0.0285,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in London be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EGLC",
+        "members": 51,
+        "station": "London City Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 343.24528599999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in London on October 5?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 3682.3948,
+      "market_id": "5225192",
+      "market_p_at_call": 0.285,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.3793,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in London be 21°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EGLC",
+        "members": 51,
+        "station": "London City Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1586.4585689999994
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in London on October 5?",
+      "kind": "band",
+      "levels": [
+        22.0,
+        22.0
+      ],
+      "liquidity_at_call": 9060.1906,
+      "market_id": "5225193",
+      "market_p_at_call": 0.445,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.5172,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in London be 22°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EGLC",
+        "members": 51,
+        "station": "London City Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1746.296796
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in London on October 5?",
+      "kind": "band",
+      "levels": [
+        23.0,
+        23.0
+      ],
+      "liquidity_at_call": 4228.6815,
+      "market_id": "5225195",
+      "market_p_at_call": 0.235,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in London be 23°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EGLC",
+        "members": 51,
+        "station": "London City Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2724.642871
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in London on October 5?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 4300.16095,
+      "market_id": "5225196",
+      "market_p_at_call": 0.0395,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in London be 24°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EGLC",
+        "members": 51,
+        "station": "London City Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 576.7170289999998
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Paris on October 5?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 3752.7188,
+      "market_id": "5225203",
+      "market_p_at_call": 0.16,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.90 °C), daily max, rounded to whole °C",
+      "our_p": 0.5517,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Paris be 24°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LFPB",
+        "members": 51,
+        "station": "Paris-Le Bourget International Airport",
+        "station_bias_c": 0.9,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Paris",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Paris"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1005.4208500000002
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Paris on October 5?",
+      "kind": "band",
+      "levels": [
+        25.0,
+        25.0
+      ],
+      "liquidity_at_call": 6274.4145,
+      "market_id": "5225204",
+      "market_p_at_call": 0.445,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.90 °C), daily max, rounded to whole °C",
+      "our_p": 0.4138,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Paris be 25°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LFPB",
+        "members": 51,
+        "station": "Paris-Le Bourget International Airport",
+        "station_bias_c": 0.9,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Paris",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Paris"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 944.9696789999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Paris on October 5?",
+      "kind": "band",
+      "levels": [
+        26.0,
+        26.0
+      ],
+      "liquidity_at_call": 3343.8894,
+      "market_id": "5225205",
+      "market_p_at_call": 0.3,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.90 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Paris be 26°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LFPB",
+        "members": 51,
+        "station": "Paris-Le Bourget International Airport",
+        "station_bias_c": 0.9,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Paris",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Paris"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1567.8738740000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Paris on October 5?",
+      "kind": "band",
+      "levels": [
+        27.0,
+        27.0
+      ],
+      "liquidity_at_call": 3426.3457,
+      "market_id": "5225206",
+      "market_p_at_call": 0.06,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.90 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Paris be 27°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LFPB",
+        "members": 51,
+        "station": "Paris-Le Bourget International Airport",
+        "station_bias_c": 0.9,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Paris",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Paris"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 360.969302
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Seoul (Incheon) on October 5?",
+      "kind": "band",
+      "levels": [
+        18.0,
+        18.0
+      ],
+      "liquidity_at_call": 3329.9802,
+      "market_id": "5225215",
+      "market_p_at_call": 0.05,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.10 °C), daily max, rounded to whole °C",
+      "our_p": 0.4138,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Seoul (Incheon) be 18°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKSI",
+        "members": 51,
+        "station": "Incheon International Airport",
+        "station_bias_c": 0.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seoul (Incheon)",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seoul (Incheon)"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 427.989312
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Seoul (Incheon) on October 5?",
+      "kind": "band",
+      "levels": [
+        19.0,
+        19.0
+      ],
+      "liquidity_at_call": 5776.0279,
+      "market_id": "5225216",
+      "market_p_at_call": 0.36,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.10 °C), daily max, rounded to whole °C",
+      "our_p": 0.3793,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Seoul (Incheon) be 19°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKSI",
+        "members": 51,
+        "station": "Incheon International Airport",
+        "station_bias_c": 0.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seoul (Incheon)",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seoul (Incheon)"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 363.717221
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Seoul (Incheon) on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 7937.3583,
+      "market_id": "5225217",
+      "market_p_at_call": 0.53,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.10 °C), daily max, rounded to whole °C",
+      "our_p": 0.2069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Seoul (Incheon) be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKSI",
+        "members": 51,
+        "station": "Incheon International Airport",
+        "station_bias_c": 0.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seoul (Incheon)",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seoul (Incheon)"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1212.7034540000004
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Ankara on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 14427.8594,
+      "market_id": "5225226",
+      "market_p_at_call": 0.255,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.4483,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Ankara be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LTAC",
+        "members": 51,
+        "station": "Esenboğa International Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Ankara",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Ankara"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1753.6027219999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Ankara on October 5?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 5446.2427,
+      "market_id": "5225227",
+      "market_p_at_call": 0.53,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Ankara be 21°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LTAC",
+        "members": 51,
+        "station": "Esenboğa International Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Ankara",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Ankara"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2317.174863
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Ankara on October 5?",
+      "kind": "band",
+      "levels": [
+        22.0,
+        22.0
+      ],
+      "liquidity_at_call": 3404.9084,
+      "market_id": "5225228",
+      "market_p_at_call": 0.13,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Ankara be 22°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LTAC",
+        "members": 51,
+        "station": "Esenboğa International Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Ankara",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Ankara"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1349.370326
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Wellington on October 5?",
+      "kind": "band",
+      "levels": [
+        14.0,
+        14.0
+      ],
+      "liquidity_at_call": 3732.5053,
+      "market_id": "5225236",
+      "market_p_at_call": 0.16,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.4483,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Wellington be 14°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "NZWN",
+        "members": 51,
+        "station": "Wellington International Airport",
+        "station_bias_c": 0.8,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Wellington",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Wellington"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 557.774349
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Wellington on October 5?",
+      "kind": "band",
+      "levels": [
+        15.0,
+        15.0
+      ],
+      "liquidity_at_call": 6282.3384,
+      "market_id": "5225237",
+      "market_p_at_call": 0.545,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.2069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Wellington be 15°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "NZWN",
+        "members": 51,
+        "station": "Wellington International Airport",
+        "station_bias_c": 0.8,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Wellington",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Wellington"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2208.9441190000002
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Wellington on October 5?",
+      "kind": "band",
+      "levels": [
+        16.0,
+        16.0
+      ],
+      "liquidity_at_call": 3253.7755,
+      "market_id": "5225238",
+      "market_p_at_call": 0.28,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Wellington be 16°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "NZWN",
+        "members": 51,
+        "station": "Wellington International Airport",
+        "station_bias_c": 0.8,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Wellington",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Wellington"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1317.9234960000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Lucknow on October 5?",
+      "kind": "band",
+      "levels": [
+        33.0,
+        33.0
+      ],
+      "liquidity_at_call": 28133.1088,
+      "market_id": "5225249",
+      "market_p_at_call": 0.485,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.90 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Lucknow be 33°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "VILK",
+        "members": 51,
+        "station": "Chaudhary Charan Singh International Airport",
+        "station_bias_c": 0.9,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Lucknow",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Lucknow"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2447.8047340000003
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Munich on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 2996.1137,
+      "market_id": "5225257",
+      "market_p_at_call": 0.135,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Munich be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EDDM",
+        "members": 51,
+        "station": "Munich Airport",
+        "station_bias_c": 1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Munich",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Munich"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 316.499647
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Munich on October 5?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 8736.4772,
+      "market_id": "5225258",
+      "market_p_at_call": 0.465,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Munich be 21°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EDDM",
+        "members": 51,
+        "station": "Munich Airport",
+        "station_bias_c": 1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Munich",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Munich"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 350.79505900000004
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Munich on October 5?",
+      "kind": "band",
+      "levels": [
+        22.0,
+        22.0
+      ],
+      "liquidity_at_call": 2979.3402,
+      "market_id": "5225259",
+      "market_p_at_call": 0.34,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Munich be 22°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EDDM",
+        "members": 51,
+        "station": "Munich Airport",
+        "station_bias_c": 1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Munich",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Munich"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1430.8577010000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Tel Aviv on October 5?",
+      "kind": "band",
+      "levels": [
+        27.0,
+        27.0
+      ],
+      "liquidity_at_call": 2582.84093,
+      "market_id": "5225266",
+      "market_p_at_call": 0.0425,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tel Aviv be 27°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LLBG",
+        "members": 51,
+        "station": "Ben Gurion International Airport",
+        "station_bias_c": -1.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tel Aviv",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tel Aviv"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 323.7285
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Tel Aviv on October 5?",
+      "kind": "band",
+      "levels": [
+        28.0,
+        28.0
+      ],
+      "liquidity_at_call": 13015.432,
+      "market_id": "5225267",
+      "market_p_at_call": 0.46,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tel Aviv be 28°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LLBG",
+        "members": 51,
+        "station": "Ben Gurion International Airport",
+        "station_bias_c": -1.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tel Aviv",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tel Aviv"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 3043.3291299999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Tel Aviv on October 5?",
+      "kind": "band",
+      "levels": [
+        29.0,
+        29.0
+      ],
+      "liquidity_at_call": 3054.314,
+      "market_id": "5225268",
+      "market_p_at_call": 0.475,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.1034,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tel Aviv be 29°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LLBG",
+        "members": 51,
+        "station": "Ben Gurion International Airport",
+        "station_bias_c": -1.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tel Aviv",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tel Aviv"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 891.624367
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Tel Aviv on October 5?",
+      "kind": "band",
+      "levels": [
+        30.0,
+        30.0
+      ],
+      "liquidity_at_call": 2823.33435,
+      "market_id": "5225269",
+      "market_p_at_call": 0.0345,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tel Aviv be 30°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LLBG",
+        "members": 51,
+        "station": "Ben Gurion International Airport",
+        "station_bias_c": -1.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tel Aviv",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tel Aviv"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 392.301499
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Tokyo on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 2376.3176,
+      "market_id": "5225277",
+      "market_p_at_call": 0.12,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tokyo be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RJTT",
+        "members": 51,
+        "station": "Tokyo Haneda International Airport",
+        "station_bias_c": -0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tokyo",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tokyo"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 832.8086649999998
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Tokyo on October 5?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 11831.3189,
+      "market_id": "5225278",
+      "market_p_at_call": 0.235,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tokyo be 21°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RJTT",
+        "members": 51,
+        "station": "Tokyo Haneda International Airport",
+        "station_bias_c": -0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tokyo",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tokyo"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 467.774599
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Tokyo on October 5?",
+      "kind": "band",
+      "levels": [
+        23.0,
+        23.0
+      ],
+      "liquidity_at_call": 2405.0167,
+      "market_id": "5225280",
+      "market_p_at_call": 0.23,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tokyo be 23°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RJTT",
+        "members": 51,
+        "station": "Tokyo Haneda International Airport",
+        "station_bias_c": -0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tokyo",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tokyo"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 400.70941400000004
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Shanghai on October 5?",
+      "kind": "band",
+      "levels": [
+        22.0,
+        22.0
+      ],
+      "liquidity_at_call": 3602.2024,
+      "market_id": "5225302",
+      "market_p_at_call": 0.085,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.5172,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shanghai be 22°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSPD",
+        "members": 51,
+        "station": "Shanghai Pudong International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shanghai",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shanghai"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 963.8327640000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Shanghai on October 5?",
+      "kind": "band",
+      "levels": [
+        23.0,
+        23.0
+      ],
+      "liquidity_at_call": 17968.6731,
+      "market_id": "5225303",
+      "market_p_at_call": 0.545,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shanghai be 23°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSPD",
+        "members": 51,
+        "station": "Shanghai Pudong International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shanghai",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shanghai"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1668.0550560000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Shanghai on October 5?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 12497.0916,
+      "market_id": "5225304",
+      "market_p_at_call": 0.365,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shanghai be 24°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSPD",
+        "members": 51,
+        "station": "Shanghai Pudong International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shanghai",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shanghai"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2143.1290389999995
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Shanghai on October 5?",
+      "kind": "band",
+      "levels": [
+        25.0,
+        25.0
+      ],
+      "liquidity_at_call": 2882.62029,
+      "market_id": "5225305",
+      "market_p_at_call": 0.03,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shanghai be 25°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSPD",
+        "members": 51,
+        "station": "Shanghai Pudong International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shanghai",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shanghai"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 309.6317179999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Singapore on October 5?",
+      "kind": "band",
+      "levels": [
+        32.0,
+        32.0
+      ],
+      "liquidity_at_call": 4243.3629,
+      "market_id": "5225313",
+      "market_p_at_call": 0.14,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.4483,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Singapore be 32°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "WSSS",
+        "members": 51,
+        "station": "Singapore Changi Airport",
+        "station_bias_c": 1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Singapore",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Singapore"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 443.34806799999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Singapore on October 5?",
+      "kind": "band",
+      "levels": [
+        33.0,
+        33.0
+      ],
+      "liquidity_at_call": 5449.5459,
+      "market_id": "5225314",
+      "market_p_at_call": 0.67,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Singapore be 33°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "WSSS",
+        "members": 51,
+        "station": "Singapore Changi Airport",
+        "station_bias_c": 1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Singapore",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Singapore"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1168.7274830000003
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Singapore on October 5?",
+      "kind": "band",
+      "levels": [
+        34.0,
+        34.0
+      ],
+      "liquidity_at_call": 4661.8633,
+      "market_id": "5225315",
+      "market_p_at_call": 0.195,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Singapore be 34°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "WSSS",
+        "members": 51,
+        "station": "Singapore Changi Airport",
+        "station_bias_c": 1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Singapore",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Singapore"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1036.0717009999998
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Milan on October 5?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 5566.3336,
+      "market_id": "5225323",
+      "market_p_at_call": 0.415,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.4828,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Milan be 24°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LIMC",
+        "members": 51,
+        "station": "Milan Malpensa International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Milan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Milan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 661.7457369999998
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Milan on October 5?",
+      "kind": "band",
+      "levels": [
+        25.0,
+        25.0
+      ],
+      "liquidity_at_call": 6097.3252,
+      "market_id": "5225324",
+      "market_p_at_call": 0.415,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Milan be 25°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LIMC",
+        "members": 51,
+        "station": "Milan Malpensa International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Milan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Milan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1891.9927539999994
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Madrid on October 5?",
+      "kind": "band",
+      "levels": [
+        23.0,
+        23.0
+      ],
+      "liquidity_at_call": 3156.0636,
+      "market_id": "5225337",
+      "market_p_at_call": 0.19,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Madrid be 23°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LEMD",
+        "members": 51,
+        "station": "Adolfo Suárez Madrid–Barajas Airport",
+        "station_bias_c": 0.8,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Madrid",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Madrid"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 579.5807269999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Warsaw on October 5?",
+      "kind": "band",
+      "levels": [
+        18.0,
+        18.0
+      ],
+      "liquidity_at_call": 7408.1633,
+      "market_id": "5225345",
+      "market_p_at_call": 0.43,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Warsaw be 18°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EPWA",
+        "members": 51,
+        "station": "Warsaw Chopin Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Warsaw",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Warsaw"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2952.487116
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Warsaw on October 5?",
+      "kind": "band",
+      "levels": [
+        19.0,
+        19.0
+      ],
+      "liquidity_at_call": 24072.8977,
+      "market_id": "5225346",
+      "market_p_at_call": 0.45,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Warsaw be 19°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EPWA",
+        "members": 51,
+        "station": "Warsaw Chopin Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Warsaw",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Warsaw"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1505.679246
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Warsaw on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 3947.1616,
+      "market_id": "5225347",
+      "market_p_at_call": 0.065,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Warsaw be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EPWA",
+        "members": 51,
+        "station": "Warsaw Chopin Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Warsaw",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Warsaw"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 671.927077
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Taipei on October 5?",
+      "kind": "band",
+      "levels": [
+        26.0,
+        26.0
+      ],
+      "liquidity_at_call": 3462.7551,
+      "market_id": "5225355",
+      "market_p_at_call": 0.13,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.1034,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Taipei be 26°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RCSS",
+        "members": 51,
+        "station": "Taipei Songshan International Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Taipei",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Taipei"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2998.3224879999993
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chongqing on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 3615.3476,
+      "market_id": "5225374",
+      "market_p_at_call": 0.175,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chongqing be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZUCK",
+        "members": 51,
+        "station": "Chongqing Jiangbei International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chongqing",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chongqing"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 4248.996886000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chongqing on October 5?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 12864.4411,
+      "market_id": "5225375",
+      "market_p_at_call": 0.27,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chongqing be 21°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZUCK",
+        "members": 51,
+        "station": "Chongqing Jiangbei International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chongqing",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chongqing"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 310.965398
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chongqing on October 5?",
+      "kind": "band",
+      "levels": [
+        22.0,
+        22.0
+      ],
+      "liquidity_at_call": 39448.6857,
+      "market_id": "5225376",
+      "market_p_at_call": 0.29,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chongqing be 22°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZUCK",
+        "members": 51,
+        "station": "Chongqing Jiangbei International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chongqing",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chongqing"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 409.62826800000005
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Beijing on October 5?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 15084.233,
+      "market_id": "5225389",
+      "market_p_at_call": 0.525,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.4828,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Beijing be 24°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZBAA",
+        "members": 51,
+        "station": "Beijing Capital International Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Beijing",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Beijing"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2221.7910920000004
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Beijing on October 5?",
+      "kind": "band",
+      "levels": [
+        25.0,
+        25.0
+      ],
+      "liquidity_at_call": 30209.1257,
+      "market_id": "5225390",
+      "market_p_at_call": 0.415,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Beijing be 25°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZBAA",
+        "members": 51,
+        "station": "Beijing Capital International Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Beijing",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Beijing"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 949.832281
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Wuhan on October 5?",
+      "kind": "band",
+      "levels": [
+        23.0,
+        23.0
+      ],
+      "liquidity_at_call": 2717.7203,
+      "market_id": "5225398",
+      "market_p_at_call": 0.175,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Wuhan be 23°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZHHH",
+        "members": 51,
+        "station": "Wuhan Tianhe International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Wuhan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Wuhan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 461.72501
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Wuhan on October 5?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 3560.9699,
+      "market_id": "5225399",
+      "market_p_at_call": 0.325,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Wuhan be 24°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZHHH",
+        "members": 51,
+        "station": "Wuhan Tianhe International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Wuhan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Wuhan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1955.8485630000005
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Wuhan on October 5?",
+      "kind": "band",
+      "levels": [
+        25.0,
+        25.0
+      ],
+      "liquidity_at_call": 3652.701,
+      "market_id": "5225400",
+      "market_p_at_call": 0.25,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.1034,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Wuhan be 25°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZHHH",
+        "members": 51,
+        "station": "Wuhan Tianhe International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Wuhan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Wuhan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 3161.4285710000004
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Wuhan on October 5?",
+      "kind": "band",
+      "levels": [
+        26.0,
+        26.0
+      ],
+      "liquidity_at_call": 4140.3421,
+      "market_id": "5225401",
+      "market_p_at_call": 0.175,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Wuhan be 26°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZHHH",
+        "members": 51,
+        "station": "Wuhan Tianhe International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Wuhan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Wuhan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 4573.9678250000015
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chengdu on October 5?",
+      "kind": "band",
+      "levels": [
+        18.0,
+        18.0
+      ],
+      "liquidity_at_call": 2100.05677,
+      "market_id": "5225407",
+      "market_p_at_call": 0.0365,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.1034,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chengdu be 18°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZUUU",
+        "members": 51,
+        "station": "Chengdu Shuangliu International Airport",
+        "station_bias_c": 0.8,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chengdu",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chengdu"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 430.6924399999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chengdu on October 5?",
+      "kind": "band",
+      "levels": [
+        19.0,
+        19.0
+      ],
+      "liquidity_at_call": 2382.1921,
+      "market_id": "5225408",
+      "market_p_at_call": 0.16,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.3793,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chengdu be 19°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZUUU",
+        "members": 51,
+        "station": "Chengdu Shuangliu International Airport",
+        "station_bias_c": 0.8,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chengdu",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chengdu"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 448.323002
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chengdu on October 5?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 4611.2404,
+      "market_id": "5225410",
+      "market_p_at_call": 0.28,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chengdu be 21°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZUUU",
+        "members": 51,
+        "station": "Chengdu Shuangliu International Airport",
+        "station_bias_c": 0.8,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chengdu",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chengdu"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 638.8947679999998
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Shenzhen on October 5?",
+      "kind": "band",
+      "levels": [
+        28.0,
+        28.0
+      ],
+      "liquidity_at_call": 7858.8648,
+      "market_id": "5225420",
+      "market_p_at_call": 0.19,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shenzhen be 28°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZGSZ",
+        "members": 51,
+        "station": "Shenzhen Bao'an International Airport",
+        "station_bias_c": -0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shenzhen",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shenzhen"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1162.685279
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Shenzhen on October 5?",
+      "kind": "band",
+      "levels": [
+        30.0,
+        30.0
+      ],
+      "liquidity_at_call": 2552.3945,
+      "market_id": "5225422",
+      "market_p_at_call": 0.335,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shenzhen be 30°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZGSZ",
+        "members": 51,
+        "station": "Shenzhen Bao'an International Airport",
+        "station_bias_c": -0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shenzhen",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shenzhen"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 571.57839
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Moscow on October 5?",
+      "kind": "band",
+      "levels": [
+        12.0,
+        12.0
+      ],
+      "liquidity_at_call": 20469.2666,
+      "market_id": "5225433",
+      "market_p_at_call": 0.36,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Moscow be 12°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "UUWW",
+        "members": 51,
+        "station": "Vnukovo International Airport",
+        "station_bias_c": -0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Moscow",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Moscow"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 683.0841670000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Moscow on October 5?",
+      "kind": "band",
+      "levels": [
+        15.0,
+        15.0
+      ],
+      "liquidity_at_call": 2326.88507,
+      "market_id": "5225436",
+      "market_p_at_call": 0.025,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Moscow be 15°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "UUWW",
+        "members": 51,
+        "station": "Vnukovo International Airport",
+        "station_bias_c": -0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Moscow",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Moscow"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 357.54608900000005
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Istanbul on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 4873.1495,
+      "market_id": "5225443",
+      "market_p_at_call": 0.61,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Istanbul be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LTFM",
+        "members": 51,
+        "station": "İstanbul Airport",
+        "station_bias_c": -0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Istanbul",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Istanbul"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1411.7473880000002
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Busan on October 5?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 4269.8522,
+      "market_id": "5225454",
+      "market_p_at_call": 0.215,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.5172,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Busan be 24°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKPK",
+        "members": 51,
+        "station": "Gimhae International Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Busan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Busan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 3625.432066999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Busan on October 5?",
+      "kind": "band",
+      "levels": [
+        25.0,
+        25.0
+      ],
+      "liquidity_at_call": 18444.7462,
+      "market_id": "5225455",
+      "market_p_at_call": 0.49,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Busan be 25°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKPK",
+        "members": 51,
+        "station": "Gimhae International Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Busan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Busan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1359.322021
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Busan on October 5?",
+      "kind": "band",
+      "levels": [
+        26.0,
+        26.0
+      ],
+      "liquidity_at_call": 4267.3026,
+      "market_id": "5225456",
+      "market_p_at_call": 0.25,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Busan be 26°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKPK",
+        "members": 51,
+        "station": "Gimhae International Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Busan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Busan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 986.1799320000002
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Amsterdam on October 5?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 6784.1469,
+      "market_id": "5225465",
+      "market_p_at_call": 0.39,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.5517,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Amsterdam be 20°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EHAM",
+        "members": 51,
+        "station": "Amsterdam Airport Schiphol",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Amsterdam",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Amsterdam"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 403.29430299999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Amsterdam on October 5?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 4959.0223,
+      "market_id": "5225466",
+      "market_p_at_call": 0.56,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.2069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Amsterdam be 21°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EHAM",
+        "members": 51,
+        "station": "Amsterdam Airport Schiphol",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Amsterdam",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Amsterdam"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 507.638826
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Helsinki on October 5?",
+      "kind": "band",
+      "levels": [
+        13.0,
+        13.0
+      ],
+      "liquidity_at_call": 3808.2351,
+      "market_id": "5225476",
+      "market_p_at_call": 0.055,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Helsinki be 13°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EFHK",
+        "members": 51,
+        "station": "Helsinki Vantaa Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Helsinki",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Helsinki"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 648.983114
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Helsinki on October 5?",
+      "kind": "band",
+      "levels": [
+        14.0,
+        14.0
+      ],
+      "liquidity_at_call": 6054.4555,
+      "market_id": "5225477",
+      "market_p_at_call": 0.605,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Helsinki be 14°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EFHK",
+        "members": 51,
+        "station": "Helsinki Vantaa Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Helsinki",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Helsinki"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 4048.259332000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Helsinki on October 5?",
+      "kind": "band",
+      "levels": [
+        15.0,
+        15.0
+      ],
+      "liquidity_at_call": 4520.6386,
+      "market_id": "5225478",
+      "market_p_at_call": 0.315,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Helsinki be 15°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EFHK",
+        "members": 51,
+        "station": "Helsinki Vantaa Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Helsinki",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Helsinki"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1186.0514489999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Jeddah on October 5?",
+      "kind": "band",
+      "levels": [
+        36.0,
+        36.0
+      ],
+      "liquidity_at_call": 29473.2849,
+      "market_id": "5225500",
+      "market_p_at_call": 0.515,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -2.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.2069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Jeddah be 36°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "OEJN",
+        "members": 51,
+        "station": "King Abdulaziz International Airport",
+        "station_bias_c": -2.8,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Jeddah",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Jeddah"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 542.0535489999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Cape Town on October 5?",
+      "kind": "band",
+      "levels": [
+        27.0,
+        27.0
+      ],
+      "liquidity_at_call": 2180.0829,
+      "market_id": "5225511",
+      "market_p_at_call": 0.07,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Cape Town be 27°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "FACT",
+        "members": 51,
+        "station": "Cape Town International Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Cape Town",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Cape Town"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 588.322229
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Guangzhou on October 5?",
+      "kind": "band",
+      "levels": [
+        28.0,
+        28.0
+      ],
+      "liquidity_at_call": 4224.221,
+      "market_id": "5225519",
+      "market_p_at_call": 0.285,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Guangzhou be 28°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZGGG",
+        "members": 51,
+        "station": "Guangzhou Baiyun International Airport",
+        "station_bias_c": 1.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Guangzhou",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Guangzhou"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 393.76397599999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Guangzhou on October 5?",
+      "kind": "band",
+      "levels": [
+        31.0,
+        31.0
+      ],
+      "liquidity_at_call": 2628.3366,
+      "market_id": "5225522",
+      "market_p_at_call": 0.07,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Guangzhou be 31°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZGGG",
+        "members": 51,
+        "station": "Guangzhou Baiyun International Airport",
+        "station_bias_c": 1.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Guangzhou",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Guangzhou"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 388.828418
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Qingdao on October 5?",
+      "kind": "band",
+      "levels": [
+        22.0,
+        22.0
+      ],
+      "liquidity_at_call": 2192.8019,
+      "market_id": "5225531",
+      "market_p_at_call": 0.515,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.3793,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Qingdao be 22°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSQD",
+        "members": 51,
+        "station": "Qingdao Jiaodong International Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Qingdao",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Qingdao"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 2462.9810190000003
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Manila on October 5?",
+      "kind": "band",
+      "levels": [
+        32.0,
+        32.0
+      ],
+      "liquidity_at_call": 3403.0643,
+      "market_id": "5225551",
+      "market_p_at_call": 0.09,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Manila be 32°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RPLL",
+        "members": 51,
+        "station": "Ninoy Aquino International Airport",
+        "station_bias_c": 1.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Manila",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Manila"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 623.588754
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Manila on October 5?",
+      "kind": "band",
+      "levels": [
+        33.0,
+        33.0
+      ],
+      "liquidity_at_call": 25585.9418,
+      "market_id": "5225552",
+      "market_p_at_call": 0.555,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.5517,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Manila be 33°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RPLL",
+        "members": 51,
+        "station": "Ninoy Aquino International Airport",
+        "station_bias_c": 1.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Manila",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Manila"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 5620.465332000002
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Manila on October 5?",
+      "kind": "band",
+      "levels": [
+        34.0,
+        34.0
+      ],
+      "liquidity_at_call": 7127.1856,
+      "market_id": "5225553",
+      "market_p_at_call": 0.35,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Manila be 34°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RPLL",
+        "members": 51,
+        "station": "Ninoy Aquino International Airport",
+        "station_bias_c": 1.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Manila",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Manila"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 733.255743
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in NYC on October 5?",
+      "kind": "band",
+      "levels": [
+        68.0,
+        69.0
+      ],
+      "liquidity_at_call": 3032.2154,
+      "market_id": "5226931",
+      "market_p_at_call": 0.525,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.76 °C), daily max, rounded to whole °F",
+      "our_p": 0.4828,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in New York City be between 68-69°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLGA",
+        "members": 51,
+        "station": "LaGuardia Airport",
+        "station_bias_c": 0.76,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "NYC",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "NYC"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 933.7687729999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in NYC on October 5?",
+      "kind": "band",
+      "levels": [
+        70.0,
+        71.0
+      ],
+      "liquidity_at_call": 3521.389,
+      "market_id": "5226932",
+      "market_p_at_call": 0.38,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.76 °C), daily max, rounded to whole °F",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in New York City be between 70-71°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLGA",
+        "members": 51,
+        "station": "LaGuardia Airport",
+        "station_bias_c": 0.76,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "NYC",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "NYC"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1032.1388660000005
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chicago on October 5?",
+      "kind": "band",
+      "levels": [
+        64.0,
+        65.0
+      ],
+      "liquidity_at_call": 1965.6733,
+      "market_id": "5226944",
+      "market_p_at_call": 0.085,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.00 °C), daily max, rounded to whole °F",
+      "our_p": 0.4483,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chicago be between 64-65°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KORD",
+        "members": 51,
+        "station": "Chicago O'Hare International Airport",
+        "station_bias_c": 1.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chicago",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chicago"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 367.297142
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chicago on October 5?",
+      "kind": "band",
+      "levels": [
+        66.0,
+        67.0
+      ],
+      "liquidity_at_call": 7075.815,
+      "market_id": "5226945",
+      "market_p_at_call": 0.32,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.00 °C), daily max, rounded to whole °F",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chicago be between 66-67°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KORD",
+        "members": 51,
+        "station": "Chicago O'Hare International Airport",
+        "station_bias_c": 1.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chicago",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chicago"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1037.1852
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chicago on October 5?",
+      "kind": "band",
+      "levels": [
+        68.0,
+        69.0
+      ],
+      "liquidity_at_call": 2387.1222,
+      "market_id": "5226946",
+      "market_p_at_call": 0.48,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.00 °C), daily max, rounded to whole °F",
+      "our_p": 0.1034,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chicago be between 68-69°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KORD",
+        "members": 51,
+        "station": "Chicago O'Hare International Airport",
+        "station_bias_c": 1.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chicago",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chicago"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 2712.277573
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Chicago on October 5?",
+      "kind": "band",
+      "levels": [
+        70.0,
+        71.0
+      ],
+      "liquidity_at_call": 2079.9426,
+      "market_id": "5226947",
+      "market_p_at_call": 0.0735,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.00 °C), daily max, rounded to whole °F",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chicago be between 70-71°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KORD",
+        "members": 51,
+        "station": "Chicago O'Hare International Airport",
+        "station_bias_c": 1.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chicago",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chicago"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 418.33753499999995
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Dallas on October 5?",
+      "kind": "band",
+      "levels": [
+        82.0,
+        83.0
+      ],
+      "liquidity_at_call": 2574.142,
+      "market_id": "5227778",
+      "market_p_at_call": 0.39,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °F",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Dallas be between 82-83°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KDAL",
+        "members": 51,
+        "station": "Dallas Love Field",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Dallas",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Dallas"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 923.112226
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Dallas on October 5?",
+      "kind": "band",
+      "levels": [
+        84.0,
+        85.0
+      ],
+      "liquidity_at_call": 2342.13,
+      "market_id": "5227779",
+      "market_p_at_call": 0.445,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °F",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Dallas be between 84-85°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KDAL",
+        "members": 51,
+        "station": "Dallas Love Field",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Dallas",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Dallas"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 2306.7883190000002
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Atlanta on October 5?",
+      "kind": "band",
+      "levels": [
+        78.0,
+        79.0
+      ],
+      "liquidity_at_call": 2867.6098,
+      "market_id": "5227788",
+      "market_p_at_call": 0.445,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °F",
+      "our_p": 0.5172,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Atlanta be between 78-79°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KATL",
+        "members": 51,
+        "station": "Hartsfield Jackson Atlanta International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Atlanta",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Atlanta"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1452.1137549999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Atlanta on October 5?",
+      "kind": "band",
+      "levels": [
+        80.0,
+        81.0
+      ],
+      "liquidity_at_call": 4100.8548,
+      "market_id": "5227789",
+      "market_p_at_call": 0.295,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °F",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Atlanta be between 80-81°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KATL",
+        "members": 51,
+        "station": "Hartsfield Jackson Atlanta International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Atlanta",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Atlanta"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 377.81213
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Atlanta on October 5?",
+      "kind": "band",
+      "levels": [
+        82.0,
+        83.0
+      ],
+      "liquidity_at_call": 3035.1407,
+      "market_id": "5227790",
+      "market_p_at_call": 0.07,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °F",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Atlanta be between 82-83°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KATL",
+        "members": 51,
+        "station": "Hartsfield Jackson Atlanta International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Atlanta",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Atlanta"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1554.4635569999998
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Miami on October 5?",
+      "kind": "band",
+      "levels": [
+        86.0,
+        87.0
+      ],
+      "liquidity_at_call": 1456.56677,
+      "market_id": "5227798",
+      "market_p_at_call": 0.055,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.21 °C), daily max, rounded to whole °F",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Miami be between 86-87°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KMIA",
+        "members": 51,
+        "station": "Miami International Airport",
+        "station_bias_c": 1.21,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Miami",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Miami"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 304.62
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Miami on October 5?",
+      "kind": "band",
+      "levels": [
+        88.0,
+        89.0
+      ],
+      "liquidity_at_call": 2858.6219,
+      "market_id": "5227799",
+      "market_p_at_call": 0.425,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.21 °C), daily max, rounded to whole °F",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Miami be between 88-89°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KMIA",
+        "members": 51,
+        "station": "Miami International Airport",
+        "station_bias_c": 1.21,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Miami",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Miami"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 3255.056407
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Miami on October 5?",
+      "kind": "band",
+      "levels": [
+        90.0,
+        91.0
+      ],
+      "liquidity_at_call": 2880.44,
+      "market_id": "5227800",
+      "market_p_at_call": 0.475,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.21 °C), daily max, rounded to whole °F",
+      "our_p": 0.2069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Miami be between 90-91°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KMIA",
+        "members": 51,
+        "station": "Miami International Airport",
+        "station_bias_c": 1.21,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Miami",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Miami"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 3612.270038
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Miami on October 5?",
+      "kind": "band",
+      "levels": [
+        92.0,
+        93.0
+      ],
+      "liquidity_at_call": 1828.7858,
+      "market_id": "5227801",
+      "market_p_at_call": 0.05,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.21 °C), daily max, rounded to whole °F",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Miami be between 92-93°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KMIA",
+        "members": 51,
+        "station": "Miami International Airport",
+        "station_bias_c": 1.21,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Miami",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Miami"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 352.439714
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Austin on October 5?",
+      "kind": "band",
+      "levels": [
+        84.0,
+        85.0
+      ],
+      "liquidity_at_call": 2955.6045,
+      "market_id": "5227811",
+      "market_p_at_call": 0.27,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.76 °C), daily max, rounded to whole °F",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Austin be between 84-85°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KAUS",
+        "members": 51,
+        "station": "Austin Bergstrom International Airport",
+        "station_bias_c": 0.76,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Austin",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Austin"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 840.9657979999998
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Austin on October 5?",
+      "kind": "band",
+      "levels": [
+        86.0,
+        87.0
+      ],
+      "liquidity_at_call": 1870.5286,
+      "market_id": "5227812",
+      "market_p_at_call": 0.505,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.76 °C), daily max, rounded to whole °F",
+      "our_p": 0.2069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Austin be between 86-87°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KAUS",
+        "members": 51,
+        "station": "Austin Bergstrom International Airport",
+        "station_bias_c": 0.76,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Austin",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Austin"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 611.762878
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Austin on October 5?",
+      "kind": "band",
+      "levels": [
+        88.0,
+        89.0
+      ],
+      "liquidity_at_call": 3158.1425,
+      "market_id": "5227813",
+      "market_p_at_call": 0.185,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.76 °C), daily max, rounded to whole °F",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Austin be between 88-89°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KAUS",
+        "members": 51,
+        "station": "Austin Bergstrom International Airport",
+        "station_bias_c": 0.76,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Austin",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Austin"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1101.5231310000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Denver on October 5?",
+      "kind": "band",
+      "levels": [
+        86.0,
+        87.0
+      ],
+      "liquidity_at_call": 3752.0204,
+      "market_id": "5227822",
+      "market_p_at_call": 0.27,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.89 °C), daily max, rounded to whole °F",
+      "our_p": 0.5862,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Denver be between 86-87°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KBKF",
+        "members": 51,
+        "station": "Buckley Space Force Base",
+        "station_bias_c": 0.89,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Denver",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Denver"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 2330.167644000001
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Denver on October 5?",
+      "kind": "band",
+      "levels": [
+        88.0,
+        89.0
+      ],
+      "liquidity_at_call": 3401.4796,
+      "market_id": "5227823",
+      "market_p_at_call": 0.52,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.89 °C), daily max, rounded to whole °F",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Denver be between 88-89°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KBKF",
+        "members": 51,
+        "station": "Buckley Space Force Base",
+        "station_bias_c": 0.89,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Denver",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Denver"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1215.392627
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Denver on October 5?",
+      "kind": "band",
+      "levels": [
+        90.0,
+        91.0
+      ],
+      "liquidity_at_call": 2774.7439,
+      "market_id": "5227824",
+      "market_p_at_call": 0.165,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.89 °C), daily max, rounded to whole °F",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Denver be between 90-91°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KBKF",
+        "members": 51,
+        "station": "Buckley Space Force Base",
+        "station_bias_c": 0.89,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Denver",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Denver"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 371.66443899999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Seattle on October 5?",
+      "kind": "band",
+      "levels": [
+        68.0,
+        69.0
+      ],
+      "liquidity_at_call": 5819.9131,
+      "market_id": "5229006",
+      "market_p_at_call": 0.345,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.73 °C), daily max, rounded to whole °F",
+      "our_p": 0.4138,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Seattle be between 68-69°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KSEA",
+        "members": 51,
+        "station": "Seattle–Tacoma International Airport",
+        "station_bias_c": 1.73,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seattle",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seattle"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 516.08509
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Los Angeles on October 5?",
+      "kind": "band",
+      "levels": [
+        92.0,
+        93.0
+      ],
+      "liquidity_at_call": 2782.1884,
+      "market_id": "5229018",
+      "market_p_at_call": 0.2,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 24 errors this station actually made against the model over the last month (median -2.72 °C), daily max, rounded to whole °F",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Los Angeles be between 92-93°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLAX",
+        "members": 51,
+        "station": "Los Angeles International Airport",
+        "station_bias_c": -2.72,
+        "station_bias_days": 24
+      },
+      "spot": null,
+      "subject": "Los Angeles",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Los Angeles"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1524.6374389999999
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Los Angeles on October 5?",
+      "kind": "band",
+      "levels": [
+        94.0,
+        95.0
+      ],
+      "liquidity_at_call": 2266.351,
+      "market_id": "5229019",
+      "market_p_at_call": 0.455,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 24 errors this station actually made against the model over the last month (median -2.72 °C), daily max, rounded to whole °F",
+      "our_p": 0.0833,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Los Angeles be between 94-95°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLAX",
+        "members": 51,
+        "station": "Los Angeles International Airport",
+        "station_bias_c": -2.72,
+        "station_bias_days": 24
+      },
+      "spot": null,
+      "subject": "Los Angeles",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Los Angeles"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 2979.143046
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Los Angeles on October 5?",
+      "kind": "band",
+      "levels": [
+        96.0,
+        97.0
+      ],
+      "liquidity_at_call": 2973.7204,
+      "market_id": "5229020",
+      "market_p_at_call": 0.19,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 24 errors this station actually made against the model over the last month (median -2.72 °C), daily max, rounded to whole °F",
+      "our_p": 0.2917,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Los Angeles be between 96-97°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLAX",
+        "members": 51,
+        "station": "Los Angeles International Airport",
+        "station_bias_c": -2.72,
+        "station_bias_days": 24
+      },
+      "spot": null,
+      "subject": "Los Angeles",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Los Angeles"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 548.404008
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Los Angeles on October 5?",
+      "kind": "band",
+      "levels": [
+        98.0,
+        99.0
+      ],
+      "liquidity_at_call": 2051.5025,
+      "market_id": "5229021",
+      "market_p_at_call": 0.095,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 24 errors this station actually made against the model over the last month (median -2.72 °C), daily max, rounded to whole °F",
+      "our_p": 0.25,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Los Angeles be between 98-99°F on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLAX",
+        "members": 51,
+        "station": "Los Angeles International Airport",
+        "station_bias_c": -2.72,
+        "station_bias_days": 24
+      },
+      "spot": null,
+      "subject": "Los Angeles",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Los Angeles"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1643.3960769999994
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Los Angeles on October 5?",
+      "kind": "at-or-above",
+      "levels": [
+        100.0,
+        100.0
+      ],
+      "liquidity_at_call": 1812.27169,
+      "market_id": "5229022",
+      "market_p_at_call": 0.0435,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 24 errors this station actually made against the model over the last month (median -2.72 °C), daily max, rounded to whole °F",
+      "our_p": 0.375,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Los Angeles be 100°F or higher on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLAX",
+        "members": 51,
+        "station": "Los Angeles International Airport",
+        "station_bias_c": -2.72,
+        "station_bias_days": 24
+      },
+      "spot": null,
+      "subject": "Los Angeles",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Los Angeles"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 2688.0791929999996
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Sao Paulo on October 5?",
+      "kind": "band",
+      "levels": [
+        26.0,
+        26.0
+      ],
+      "liquidity_at_call": 1893.1962,
+      "market_id": "5231676",
+      "market_p_at_call": 0.054,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Sao Paulo be 26°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "SBGR",
+        "members": 51,
+        "station": "São Paulo/Guarulhos–Governor André Franco Montoro International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Sao Paulo",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Sao Paulo"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 428.599351
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Buenos Aires on October 5?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 2201.1541,
+      "market_id": "5231688",
+      "market_p_at_call": 0.245,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Buenos Aires be 24°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "SAEZ",
+        "members": 51,
+        "station": "Ezeiza International Airport - Ministro Pistarini",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Buenos Aires",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Buenos Aires"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 361.22401500000007
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Toronto on October 5?",
+      "kind": "band",
+      "levels": [
+        15.0,
+        15.0
+      ],
+      "liquidity_at_call": 3246.0102,
+      "market_id": "5231697",
+      "market_p_at_call": 0.495,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.10 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Toronto be 15°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "CYYZ",
+        "members": 51,
+        "station": "Toronto Pearson International Airport",
+        "station_bias_c": 0.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Toronto",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Toronto"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 473.29356199999995
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Mexico City on October 5?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 2730.0806,
+      "market_id": "5231830",
+      "market_p_at_call": 0.11,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 28 errors this station actually made against the model over the last month (median -0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.3571,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Mexico City be 21°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "MMMX",
+        "members": 51,
+        "station": "Mexico City Benito Juárez International Airport",
+        "station_bias_c": -0.8,
+        "station_bias_days": 28
+      },
+      "spot": null,
+      "subject": "Mexico City",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Mexico City"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 418.276106
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Mexico City on October 5?",
+      "kind": "band",
+      "levels": [
+        22.0,
+        22.0
+      ],
+      "liquidity_at_call": 6595.6422,
+      "market_id": "5231831",
+      "market_p_at_call": 0.385,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 28 errors this station actually made against the model over the last month (median -0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.3929,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Mexico City be 22°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "MMMX",
+        "members": 51,
+        "station": "Mexico City Benito Juárez International Airport",
+        "station_bias_c": -0.8,
+        "station_bias_days": 28
+      },
+      "spot": null,
+      "subject": "Mexico City",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Mexico City"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 581.250307
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Mexico City on October 5?",
+      "kind": "band",
+      "levels": [
+        23.0,
+        23.0
+      ],
+      "liquidity_at_call": 2735.1426,
+      "market_id": "5231832",
+      "market_p_at_call": 0.305,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 28 errors this station actually made against the model over the last month (median -0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.0714,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Mexico City be 23°C on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "MMMX",
+        "members": 51,
+        "station": "Mexico City Benito Juárez International Airport",
+        "station_bias_c": -0.8,
+        "station_bias_days": 28
+      },
+      "spot": null,
+      "subject": "Mexico City",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Mexico City"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 449.144953
+    },
+    {
+      "called_at": "2026-10-04T04:16:59+00:00",
+      "days": 1,
+      "deadline": "2026-10-05T23:59:59+00:00",
+      "event": "Highest temperature in Mexico City on October 5?",
+      "kind": "at-or-above",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 1798.9763,
+      "market_id": "5231833",
+      "market_p_at_call": 0.19,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 28 errors this station actually made against the model over the last month (median -0.80 °C), daily max, rounded to whole °C",
+      "our_p": 0.1071,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Mexico City be 24°C or higher on October 5?",
+      "sample": {
+        "extreme": "max",
+        "icao": "MMMX",
+        "members": 51,
+        "station": "Mexico City Benito Juárez International Airport",
+        "station_bias_c": -0.8,
+        "station_bias_days": 28
+      },
+      "spot": null,
+      "subject": "Mexico City",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Mexico City"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 833.5755969999999
+    }
+  ],
+  "count": 115,
+  "disclaimer": "Educational content - not financial advice.",
+  "issuer": "NeuPortal (neuportal.ai)",
+  "kind": "prediction-market-calls",
+  "note": "A call is proven to have existed no later than sealed_at_utc. From 2026-09-26 calls are sealed minutes after they are first recorded, before publication. Calls recorded earlier (2026-09-14 to 2026-09-26) went into the first seal together, so for them the proof starts at that seal, not at the moment of the call. Outcome fields arrive later from the venue and are not part of any seal.",
+  "reference": "Polymarket, Gamma API; outcomes are read from the venue after each deadline",
+  "scoring": "Brier score of our_p against the resolved outcome, compared with market_p_at_call; published including misses.",
+  "sealed_at_utc": "2026-10-04T04:17:52+00:00",
+  "sealed_fields": [
+    "market_id",
+    "question",
+    "event",
+    "theme",
+    "themes",
+    "track",
+    "subject",
+    "unit",
+    "kind",
+    "levels",
+    "deadline",
+    "days",
+    "spot",
+    "our_p",
+    "our_p_untilted",
+    "market_p_at_call",
+    "liquidity_at_call",
+    "volume_at_call",
+    "called_at",
+    "sample",
+    "method"
+  ]
+}

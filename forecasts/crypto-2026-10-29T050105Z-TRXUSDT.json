@@ -1,0 +1,119 @@
+{
+  "disclaimer": "Educational content — not financial advice.",
+  "generated_at_utc": "2026-10-29T05:00:37+00:00",
+  "horizons": {
+    "24h": {
+      "central": 0.3315,
+      "conditional": false,
+      "core50": [
+        0.3265,
+        0.3362
+      ],
+      "entry_zone": [
+        0.33,
+        0.34
+      ],
+      "horizon_days": 1,
+      "invalidation": null,
+      "lean": -0.164,
+      "likely30": [
+        0.329,
+        0.3338
+      ],
+      "n_windows_matched": 3062,
+      "n_windows_total": 3062,
+      "resolves_at_utc": "2026-10-30T05:01:13+00:00",
+      "stance": "NEUTRAL",
+      "targets": [],
+      "wide80": [
+        0.3186,
+        0.344
+      ]
+    },
+    "30d": {
+      "central": 0.3361,
+      "conditional": false,
+      "core50": [
+        0.305,
+        0.369
+      ],
+      "entry_zone": [
+        0.33,
+        0.33
+      ],
+      "horizon_days": 30,
+      "invalidation": 0.37,
+      "lean": -0.266,
+      "likely30": [
+        0.3197,
+        0.3541
+      ],
+      "n_windows_matched": 3033,
+      "n_windows_total": 3033,
+      "resolves_at_utc": "2026-11-28T05:01:13+00:00",
+      "stance": "SHORT",
+      "targets": [
+        0.31,
+        0.27
+      ],
+      "wide80": [
+        0.2657,
+        0.4142
+      ]
+    },
+    "7d": {
+      "central": 0.3325,
+      "conditional": false,
+      "core50": [
+        0.3188,
+        0.3451
+      ],
+      "entry_zone": [
+        0.32,
+        0.35
+      ],
+      "horizon_days": 7,
+      "invalidation": null,
+      "lean": -0.215,
+      "likely30": [
+        0.3254,
+        0.3394
+      ],
+      "n_windows_matched": 3056,
+      "n_windows_total": 3056,
+      "resolves_at_utc": "2026-11-05T05:01:13+00:00",
+      "stance": "NEUTRAL",
+      "targets": [],
+      "wide80": [
+        0.2997,
+        0.3675
+      ]
+    }
+  },
+  "indicators_at_lock": {
+    "adx": 8.7161,
+    "atr": 0.0032,
+    "bb_lower": 0.3272,
+    "bb_upper": 0.3348,
+    "ma20": 0.3314,
+    "ma200": 0.3285,
+    "ma50": 0.333,
+    "macd_hist": 0.0001,
+    "minus_di": 18.0233,
+    "obv_slope_10d": -203944170.3,
+    "pct_b": 0.543,
+    "plus_di": 16.8613,
+    "rsi": 48.2019,
+    "sigma_daily": 0.0053,
+    "stoch_rsi": 65.7178,
+    "trend": "weak/range",
+    "vwap20": 0.3312
+  },
+  "issuer": "NeuPortal (neuportal.ai)",
+  "kind": "crypto-price-forecast",
+  "method": "empirical h-day return quantiles (core 50% / wide 80%), ADX-gated momentum tilt capped at 0.35 of core half-width",
+  "reference": "Binance spot, daily close series (public API)",
+  "scoring": "Outcome compared to core50 / wide80 containment and absolute error of the median, published in public including misses.",
+  "spot_at_lock": 0.3313,
+  "symbol": "TRXUSDT"
+}

@@ -1,0 +1,116 @@
+{
+  "disclaimer": "Educational content — not financial advice.",
+  "generated_at_utc": "2026-07-24T13:47:11+00:00",
+  "horizons": {
+    "24h": {
+      "central": 1.0924,
+      "core50": [
+        1.0706,
+        1.1137
+      ],
+      "entry_zone": [
+        1.09,
+        1.11
+      ],
+      "horizon_days": 1,
+      "invalidation": 1.14,
+      "lean": -0.258,
+      "likely30": [
+        1.0799,
+        1.1031
+      ],
+      "resolves_at_utc": "2026-07-25T13:47:22+00:00",
+      "stance": "SHORT",
+      "targets": [
+        1.07,
+        1.04
+      ],
+      "wide80": [
+        1.0419,
+        1.1455
+      ]
+    },
+    "30d": {
+      "central": 1.0496,
+      "core50": [
+        0.9246,
+        1.1997
+      ],
+      "entry_zone": [
+        1.09,
+        1.11
+      ],
+      "horizon_days": 30,
+      "invalidation": 1.22,
+      "lean": -0.314,
+      "likely30": [
+        0.9825,
+        1.1228
+      ],
+      "resolves_at_utc": "2026-08-23T13:47:22+00:00",
+      "stance": "SHORT",
+      "targets": [
+        1.01,
+        0.81
+      ],
+      "wide80": [
+        0.8128,
+        1.5063
+      ]
+    },
+    "7d": {
+      "central": 1.0815,
+      "core50": [
+        1.0236,
+        1.1448
+      ],
+      "entry_zone": [
+        1.09,
+        1.11
+      ],
+      "horizon_days": 7,
+      "invalidation": 1.18,
+      "lean": -0.286,
+      "likely30": [
+        1.049,
+        1.1143
+      ],
+      "resolves_at_utc": "2026-07-31T13:47:22+00:00",
+      "stance": "SHORT",
+      "targets": [
+        1.01,
+        0.96
+      ],
+      "wide80": [
+        0.9585,
+        1.2343
+      ]
+    }
+  },
+  "indicators_at_lock": {
+    "adx": 11.3431,
+    "atr": 0.0382,
+    "bb_lower": 1.0605,
+    "bb_upper": 1.154,
+    "ma20": 1.1082,
+    "ma200": 1.4314,
+    "ma50": 1.1427,
+    "macd_hist": 0.004,
+    "minus_di": 22.2543,
+    "obv_slope_10d": 124260055.9,
+    "pct_b": 0.3657,
+    "plus_di": 21.9501,
+    "rsi": 46.0213,
+    "sigma_daily": 0.0193,
+    "stoch_rsi": 35.9246,
+    "trend": "weak/range",
+    "vwap20": 1.11
+  },
+  "issuer": "NeuPortal (neuportal.ai)",
+  "kind": "crypto-price-forecast",
+  "method": "empirical h-day return quantiles (core 50% / wide 80%), ADX-gated momentum tilt capped at 0.35 of core half-width",
+  "reference": "Binance spot, daily close series (public API)",
+  "scoring": "Outcome compared to core50 / wide80 containment and absolute error of the median, published in public including misses.",
+  "spot_at_lock": 1.0947,
+  "symbol": "XRPUSDT"
+}

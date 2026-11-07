@@ -1,0 +1,107 @@
+{
+  "disclaimer": "Educational content — not financial advice.",
+  "generated_at_utc": "2026-07-24T13:47:11+00:00",
+  "horizons": {
+    "24h": {
+      "central": 0.1651,
+      "core50": [
+        0.1609,
+        0.1691
+      ],
+      "entry_zone": [
+        0.16,
+        0.17
+      ],
+      "horizon_days": 1,
+      "invalidation": null,
+      "lean": -0.207,
+      "likely30": [
+        0.1627,
+        0.1674
+      ],
+      "resolves_at_utc": "2026-07-25T13:47:25+00:00",
+      "stance": "NEUTRAL",
+      "targets": [],
+      "wide80": [
+        0.1565,
+        0.1746
+      ]
+    },
+    "30d": {
+      "central": 0.1576,
+      "core50": [
+        0.1346,
+        0.1879
+      ],
+      "entry_zone": [
+        0.13,
+        0.19
+      ],
+      "horizon_days": 30,
+      "invalidation": null,
+      "lean": -0.146,
+      "likely30": [
+        0.144,
+        0.1732
+      ],
+      "resolves_at_utc": "2026-08-23T13:47:25+00:00",
+      "stance": "NEUTRAL",
+      "targets": [],
+      "wide80": [
+        0.1155,
+        0.2455
+      ]
+    },
+    "7d": {
+      "central": 0.1634,
+      "core50": [
+        0.1527,
+        0.1767
+      ],
+      "entry_zone": [
+        0.15,
+        0.18
+      ],
+      "horizon_days": 7,
+      "invalidation": null,
+      "lean": -0.176,
+      "likely30": [
+        0.1574,
+        0.1696
+      ],
+      "resolves_at_utc": "2026-07-31T13:47:25+00:00",
+      "stance": "NEUTRAL",
+      "targets": [],
+      "wide80": [
+        0.1416,
+        0.1934
+      ]
+    }
+  },
+  "indicators_at_lock": {
+    "adx": 13.8845,
+    "atr": 0.009,
+    "bb_lower": 0.1539,
+    "bb_upper": 0.1838,
+    "ma20": 0.1676,
+    "ma200": 0.2697,
+    "ma50": 0.1764,
+    "macd_hist": 0.0007,
+    "minus_di": 19.8699,
+    "obv_slope_10d": 176004231.6,
+    "pct_b": 0.3871,
+    "plus_di": 20.4476,
+    "rsi": 47.2754,
+    "sigma_daily": 0.0364,
+    "stoch_rsi": 40.5977,
+    "trend": "weak/range",
+    "vwap20": 0.1709
+  },
+  "issuer": "NeuPortal (neuportal.ai)",
+  "kind": "crypto-price-forecast",
+  "method": "empirical h-day return quantiles (core 50% / wide 80%), ADX-gated momentum tilt capped at 0.35 of core half-width",
+  "reference": "Binance spot, daily close series (public API)",
+  "scoring": "Outcome compared to core50 / wide80 containment and absolute error of the median, published in public including misses.",
+  "spot_at_lock": 0.1655,
+  "symbol": "ADAUSDT"
+}

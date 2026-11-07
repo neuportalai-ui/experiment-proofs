@@ -1,0 +1,98 @@
+{
+  "disclaimer": "Educational content — not financial advice.",
+  "generated_at_utc": "2026-07-20T23:23:34+00:00",
+  "horizons": {
+    "24h": {
+      "central": 65233.92,
+      "core50": [
+        64425.65,
+        66007.54
+      ],
+      "entry_zone": [
+        64425.65,
+        66007.54
+      ],
+      "horizon_days": 1,
+      "invalidation": null,
+      "lean": 0.095,
+      "resolves_at_utc": "2026-07-21T23:24:38+00:00",
+      "stance": "NEUTRAL",
+      "targets": [],
+      "wide80": [
+        63659.74,
+        66798.71
+      ]
+    },
+    "30d": {
+      "central": 63859.57,
+      "core50": [
+        58803.62,
+        68017.78
+      ],
+      "entry_zone": [
+        65231.99,
+        65799.0
+      ],
+      "horizon_days": 30,
+      "invalidation": 70325.1,
+      "lean": -0.536,
+      "resolves_at_utc": "2026-08-19T23:24:38+00:00",
+      "stance": "SHORT",
+      "targets": [
+        57800.19,
+        52172.57
+      ],
+      "wide80": [
+        52172.57,
+        72506.58
+      ]
+    },
+    "7d": {
+      "central": 65125.4,
+      "core50": [
+        62808.72,
+        67171.02
+      ],
+      "entry_zone": [
+        62808.72,
+        67171.02
+      ],
+      "horizon_days": 7,
+      "invalidation": null,
+      "lean": -0.221,
+      "resolves_at_utc": "2026-07-27T23:24:38+00:00",
+      "stance": "NEUTRAL",
+      "targets": [],
+      "wide80": [
+        60605.94,
+        69156.02
+      ]
+    }
+  },
+  "indicators_at_lock": {
+    "adx": 23.6243,
+    "atr": 1838.3728,
+    "bb_lower": 60954.2722,
+    "bb_upper": 66079.0678,
+    "ma20": 63794.9784,
+    "ma200": 74052.8977,
+    "ma50": 65040.6295,
+    "macd_hist": 327.9066,
+    "minus_di": 26.4112,
+    "obv_slope_10d": -22438.1563,
+    "pct_b": 0.8347,
+    "plus_di": 14.282,
+    "rsi": 56.6669,
+    "sigma_daily": 0.0169,
+    "stoch_rsi": 100.0,
+    "trend": "weak/range",
+    "vwap20": 63195.0377
+  },
+  "issuer": "NeuPortal (neuportal.ai)",
+  "kind": "crypto-price-forecast",
+  "method": "empirical h-day return quantiles (core 50% / wide 80%), ADX-gated momentum tilt capped at 0.35 of core half-width",
+  "reference": "Binance spot, daily close series (public API)",
+  "scoring": "Outcome compared to core50 / wide80 containment and absolute error of the median, published in public including misses.",
+  "spot_at_lock": 65231.99,
+  "symbol": "BTCUSDT"
+}

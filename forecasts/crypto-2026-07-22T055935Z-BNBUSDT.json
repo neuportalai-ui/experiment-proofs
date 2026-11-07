@@ -1,0 +1,104 @@
+{
+  "disclaimer": "Educational content — not financial advice.",
+  "generated_at_utc": "2026-07-22T05:59:25+00:00",
+  "horizons": {
+    "24h": {
+      "central": 568.81,
+      "core50": [
+        558.63,
+        579.29
+      ],
+      "entry_zone": [
+        569.25,
+        573.38
+      ],
+      "horizon_days": 1,
+      "invalidation": 585.93,
+      "lean": -0.329,
+      "resolves_at_utc": "2026-07-23T05:59:40+00:00",
+      "stance": "SHORT",
+      "targets": [
+        537.25,
+        544.03
+      ],
+      "wide80": [
+        544.03,
+        595.74
+      ]
+    },
+    "30d": {
+      "central": 573.25,
+      "core50": [
+        511.69,
+        654.6
+      ],
+      "entry_zone": [
+        569.25,
+        573.38
+      ],
+      "horizon_days": 30,
+      "invalidation": 666.1,
+      "lean": -0.4,
+      "resolves_at_utc": "2026-08-21T05:59:40+00:00",
+      "stance": "SHORT",
+      "targets": [
+        537.25,
+        437.81
+      ],
+      "wide80": [
+        437.81,
+        783.36
+      ]
+    },
+    "7d": {
+      "central": 568.02,
+      "core50": [
+        541.3,
+        603.29
+      ],
+      "entry_zone": [
+        569.25,
+        573.38
+      ],
+      "horizon_days": 7,
+      "invalidation": 616.89,
+      "lean": -0.365,
+      "resolves_at_utc": "2026-07-29T05:59:40+00:00",
+      "stance": "SHORT",
+      "targets": [
+        537.25,
+        507.34
+      ],
+      "wide80": [
+        507.34,
+        647.28
+      ]
+    }
+  },
+  "indicators_at_lock": {
+    "adx": 19.6466,
+    "atr": 14.4667,
+    "bb_lower": 562.4032,
+    "bb_upper": 586.5848,
+    "ma20": 573.3763,
+    "ma200": 659.0777,
+    "ma50": 585.9278,
+    "macd_hist": 0.8833,
+    "minus_di": 23.0772,
+    "obv_slope_10d": 8324.544,
+    "pct_b": 0.2831,
+    "plus_di": 13.0509,
+    "rsi": 45.6428,
+    "sigma_daily": 0.0141,
+    "stoch_rsi": 19.1657,
+    "trend": "weak/range",
+    "vwap20": 574.728
+  },
+  "issuer": "NeuPortal (neuportal.ai)",
+  "kind": "crypto-price-forecast",
+  "method": "empirical h-day return quantiles (core 50% / wide 80%), ADX-gated momentum tilt capped at 0.35 of core half-width",
+  "reference": "Binance spot, daily close series (public API)",
+  "scoring": "Outcome compared to core50 / wide80 containment and absolute error of the median, published in public including misses.",
+  "spot_at_lock": 569.25,
+  "symbol": "BNBUSDT"
+}
