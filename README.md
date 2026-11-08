@@ -88,3 +88,7 @@ Found a hole in the protocol? Open an issue. That's what this repo is for.
 ---
 
 *NeuPortal is an educational transparency project about forecasting and prediction markets — not betting advice, not financial advice.*
+
+## License
+
+The forecasts and proofs in this repository are released under [CC BY 4.0](LICENSE): use them freely, with a link back to this repository.

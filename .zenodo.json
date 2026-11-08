@@ -1,0 +1,31 @@
+{
+  "title": "NeuPortal Forecast Ledger: Bitcoin-timestamped AI forecasts scored against market prices",
+  "upload_type": "dataset",
+  "description": "<p>Every forecast in this dataset was sealed before the event it predicts and timestamped into Bitcoin with OpenTimestamps, then scored against market prices with the Brier score. Each JSON file is the original stamped artifact, byte for byte, next to its .ots proof.</p><p>As of 7 November 2026: 7,294 forecasts, 6,957 resolved. Brier score: ours 0.1936, the market's 0.1605 (lower is better), so the market is ahead. Tracks: weather, crypto, sports, markets, politics, tech.</p><p>Known gaps are listed in the README: newest files may carry pending proofs, one file was never stamped, and a duplicate set sealed by mistake is kept but not scored.</p><p>Verify any file at opentimestamps.org (drop the .ots first, then the .json) or with the opentimestamps-client.</p>",
+  "creators": [
+    { "name": "NeuPortal" }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "forecasting",
+    "opentimestamps",
+    "bitcoin timestamping",
+    "brier score",
+    "calibration",
+    "prediction markets",
+    "AI forecasts"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/neuportalai-ui/experiment-proofs",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://neuportal.ai/experiment",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}
