@@ -8,6 +8,8 @@ This repo exists so you can check us **without trusting us**.
 
 An independent archived copy of every release is kept by CERN's Zenodo: [doi.org/10.5281/zenodo.24051884](https://doi.org/10.5281/zenodo.24051884).
 
+The same calls as one table (market price, outcome, Brier, seal time, `sealed_before_resolution`): [huggingface.co/datasets/neuportal/neuportal-forecast-ledger](https://huggingface.co/datasets/neuportal/neuportal-forecast-ledger).
+
 ## Current result (7 November 2026)
 
 - 7,294 forecasts in the ledger, 6,957 resolved.
