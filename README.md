@@ -1,8 +1,12 @@
 # NeuPortal Experiment — Public Proofs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24051884.svg)](https://doi.org/10.5281/zenodo.24051884)
+
 Raw, verifiable evidence for the [NeuPortal forecast experiment](https://neuportal.ai/experiment): every forecast is **sealed before the event**, timestamped into Bitcoin with OpenTimestamps, then scored against the market.
 
 This repo exists so you can check us **without trusting us**.
+
+An independent archived copy of every release is kept by CERN's Zenodo: [doi.org/10.5281/zenodo.24051884](https://doi.org/10.5281/zenodo.24051884).
 
 ## Current result (7 November 2026)
 
