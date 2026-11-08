@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24051884.svg)](https://doi.org/10.5281/zenodo.24051884)
 
-Raw, verifiable evidence for the [NeuPortal forecast experiment](https://neuportal.ai/experiment): every forecast is **sealed before the event**, timestamped into Bitcoin with OpenTimestamps, then scored against the market.
+Raw, verifiable evidence for the [NeuPortal forecast experiment](https://neuportal.ai/experiment): every forecast is timestamped into Bitcoin with OpenTimestamps, then scored against the market. Since 26 September 2026 each prediction-market call is **sealed minutes after it is made**, before its event.
 
 This repo exists so you can check us **without trusting us**.
 
@@ -32,6 +32,7 @@ verify.sh                                  ← loops over every proof and report
 Each `.json` is the original stamped artifact, byte for byte. Modifying a single character breaks its proof.
 
 **Known gaps, stated up front:**
+- **The first prediction-market batch was sealed late.** Calls recorded from 14 to 26 September 2026 (1,613) went into one seal on 26 September, `forecasts/pm-calls-2026-09-26T121736Z.json`. For them the proof starts at that seal, not at the call, and **1,394 of them had already resolved by then**. They are not evidence of forecasting in advance. They do not flatter us either: on them our Brier is 0.187 against the market's 0.164, and without them the totals are ours 0.196, the market's 0.160.
 - The newest files carry a pending proof until Bitcoin confirms them, usually within hours. They are upgraded in later updates.
 - `crypto-2026-08-17T111934Z-AVAXUSDT.json` has no proof at all. It was never stamped, so treat it as unsealed.
 - Forecasts of 2026-10-24 in `void-2026-10-24-duplicate/` were sealed by our own mistake and are not scored. We kept them rather than delete them.
