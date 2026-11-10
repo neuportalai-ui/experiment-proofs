@@ -28,17 +28,21 @@ else
 fi
 
 ok=0; bad=0; pending=0; missing=0
+if [ "${#files[@]}" -gt 50 ]; then
+  echo "Checking ${#files[@]} files (a few minutes). To check one: ./verify.sh forecasts/FILE.json" >&2
+fi
 for src in "${files[@]}"; do
   ots_file="$src.ots"
   if [ ! -f "$ots_file" ]; then
     echo "NO PROOF     $src"; missing=$((missing+1)); continue
   fi
-  want="$(ots info "$ots_file" | sed -n 's/^File sha256 hash: //p' | head -1)"
+  info="$(ots info "$ots_file")"
+  want="$(printf '%s\n' "$info" | sed -n 's/^File sha256 hash: //p' | head -1)"
   have="$(shasum -a 256 "$src" | cut -d' ' -f1)"
   if [ "$want" != "$have" ]; then
     echo "MISMATCH     $src  (file $have, proof $want)"; bad=$((bad+1)); continue
   fi
-  blocks="$(ots info "$ots_file" | sed -n 's/.*BitcoinBlockHeaderAttestation(\([0-9]*\)).*/\1/p' | sort -un | tr '\n' ' ')"
+  blocks="$(printf '%s\n' "$info" | sed -n 's/.*BitcoinBlockHeaderAttestation(\([0-9]*\)).*/\1/p' | sort -un | tr '\n' ' ')"
   if [ -z "$blocks" ]; then
     echo "HASH OK      $src  pending (not yet in Bitcoin; ots upgrade $ots_file)"; pending=$((pending+1)); continue
   fi
