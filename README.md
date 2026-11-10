@@ -8,6 +8,8 @@ This repo exists so you can check us **without trusting us**.
 
 An independent archived copy of every release is kept by CERN's Zenodo: [doi.org/10.5281/zenodo.24051884](https://doi.org/10.5281/zenodo.24051884).
 
+Author: Andrii Bilous ([ORCID 0009-0001-5481-8874](https://orcid.org/0009-0001-5481-8874)).
+
 The same calls as one table (market price, outcome, Brier, seal time, `sealed_before_resolution`): [huggingface.co/datasets/neuportal/neuportal-forecast-ledger](https://huggingface.co/datasets/neuportal/neuportal-forecast-ledger).
 
 ## Current result (7 November 2026)
