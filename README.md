@@ -30,7 +30,7 @@ forecasts/
   baseline-2026-07-03.json(.ots)           ← first batch of calls, stamped together
 superseded/                                ← sealed but never published, see its README
 void-2026-10-24-duplicate/                 ← a duplicate set sealed by mistake, see its README
-verify.sh                                  ← loops over every proof and reports its Bitcoin block
+verify.sh                                  ← checks each file's hash against its proof and reports its Bitcoin block
 ```
 
 Each `.json` is the original stamped artifact, byte for byte. Modifying a single character breaks its proof.
@@ -49,11 +49,13 @@ Each `.json` is the original stamped artifact, byte for byte. Modifying a single
 
 ```bash
 pip install opentimestamps-client
-ots info forecasts/call-paraguay-france-2026-07-04T093933089Z.json.ots
-# → verify BitcoinBlockHeaderAttestation(956639)  ← the Bitcoin block that anchors this forecast
+./verify.sh forecasts/pm-calls-2026-11-08T052902Z.json
+# → HASH OK  forecasts/pm-calls-2026-11-08T052902Z.json  BLOCK 975028 ...
+./verify.sh            # every proof; exits non-zero if any file does not match its proof
+./verify.sh --node     # also runs `ots verify` against your own Bitcoin Core node
 ```
 
-`ots info` shows the attested block height and the exact hash path. For fully trustless verification (`ots verify`), point the client at any Bitcoin node you trust — the attestation is an ordinary Merkle path into a block header.
+`HASH OK` means the `.json` is byte-for-byte the file the proof commits to; `BLOCK n` is the Bitcoin block the proof is anchored in. For fully trustless verification (`--node`, i.e. `ots verify`), point the client at a Bitcoin node you trust — the attestation is an ordinary Merkle path into a block header. `ots info <file>.ots` shows the exact hash path.
 
 **What you are checking:** the file containing our probabilities existed **before** the block timestamp — and therefore before kickoff. Nobody, including us, can backdate into Bitcoin.
 
