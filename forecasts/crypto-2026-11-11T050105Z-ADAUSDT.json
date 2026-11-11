@@ -1,0 +1,125 @@
+{
+  "disclaimer": "Educational content — not financial advice.",
+  "generated_at_utc": "2026-11-11T05:00:37+00:00",
+  "horizons": {
+    "24h": {
+      "central": 0.1735,
+      "conditional": true,
+      "core50": [
+        0.1695,
+        0.1774
+      ],
+      "entry_zone": [
+        0.17,
+        0.18
+      ],
+      "horizon_days": 1,
+      "invalidation": 0.18,
+      "lean": -0.853,
+      "likely30": [
+        0.1713,
+        0.1759
+      ],
+      "n_windows_matched": 1658,
+      "n_windows_total": 3130,
+      "resolves_at_utc": "2026-11-12T05:01:24+00:00",
+      "stance": "SHORT",
+      "targets": [
+        0.17,
+        0.17
+      ],
+      "wide80": [
+        0.165,
+        0.1825
+      ]
+    },
+    "30d": {
+      "central": 0.163,
+      "conditional": true,
+      "core50": [
+        0.1373,
+        0.1956
+      ],
+      "entry_zone": [
+        0.17,
+        0.18
+      ],
+      "horizon_days": 30,
+      "invalidation": 0.2,
+      "lean": -0.952,
+      "likely30": [
+        0.1479,
+        0.1798
+      ],
+      "n_windows_matched": 1632,
+      "n_windows_total": 3101,
+      "resolves_at_utc": "2026-12-11T05:01:24+00:00",
+      "stance": "SHORT",
+      "targets": [
+        0.14,
+        0.12
+      ],
+      "wide80": [
+        0.1167,
+        0.2464
+      ]
+    },
+    "7d": {
+      "central": 0.1695,
+      "conditional": true,
+      "core50": [
+        0.1585,
+        0.1827
+      ],
+      "entry_zone": [
+        0.17,
+        0.18
+      ],
+      "horizon_days": 7,
+      "invalidation": 0.19,
+      "lean": -0.902,
+      "likely30": [
+        0.1628,
+        0.1756
+      ],
+      "n_windows_matched": 1652,
+      "n_windows_total": 3124,
+      "resolves_at_utc": "2026-11-18T05:01:24+00:00",
+      "stance": "SHORT",
+      "targets": [
+        0.16,
+        0.15
+      ],
+      "wide80": [
+        0.1479,
+        0.199
+      ]
+    }
+  },
+  "indicators_at_lock": {
+    "adx": 34.5317,
+    "atr": 0.0111,
+    "bb_lower": 0.1674,
+    "bb_upper": 0.2164,
+    "ma20": 0.1918,
+    "ma200": 0.2307,
+    "ma50": 0.2066,
+    "macd_hist": -0.0008,
+    "minus_di": 24.5722,
+    "obv_slope_10d": -19350171.4,
+    "pct_b": 0.1528,
+    "plus_di": 10.3173,
+    "rsi": 31.7594,
+    "sigma_daily": 0.0284,
+    "stoch_rsi": 24.0785,
+    "trend": "strong",
+    "vwap20": 0.1928
+  },
+  "issuer": "NeuPortal (neuportal.ai)",
+  "kind": "crypto-price-forecast",
+  "method": "empirical h-day return quantiles (core 50% / wide 80%), ADX-gated momentum tilt capped at 0.35 of core half-width",
+  "reference": "Binance spot, daily close series (public API)",
+  "scoring": "Outcome compared to core50 / wide80 containment and absolute error of the median, published in public including misses.",
+  "spot_at_lock": 0.1749,
+  "symbol": "ADAUSDT"
+}
