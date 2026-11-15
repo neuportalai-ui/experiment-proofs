@@ -1,0 +1,4591 @@
+{
+  "called_from_utc": "2026-11-15T05:26:40+00:00",
+  "called_to_utc": "2026-11-15T05:26:40+00:00",
+  "calls": [
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 15,
+      "deadline": "2026-12-01T04:59:59+00:00",
+      "event": "What will Gold (XAUUSD) hit in November 2026?",
+      "kind": "touch-low",
+      "levels": [
+        3500.0
+      ],
+      "liquidity_at_call": 12246.11212,
+      "market_id": "6172689",
+      "market_p_at_call": 0.162,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.0771,
+      "our_p_untilted": 0.0751,
+      "question": "Will Gold (XAUUSD) hit (LOW) $3,500 in November?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.546,
+        "median_move": 0.00498,
+        "n_independent": 33
+      },
+      "spot": 3886.300048828125,
+      "subject": "gold",
+      "theme": "Finance",
+      "themes": [
+        "Finance",
+        "gold"
+      ],
+      "track": "markets",
+      "unit": "USD",
+      "volume_at_call": 20148.943324
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 15,
+      "deadline": "2026-12-01T00:00:00+00:00",
+      "event": "What price will Solana hit in November?",
+      "kind": "touch-low",
+      "levels": [
+        30.0
+      ],
+      "liquidity_at_call": 40420.08716,
+      "market_id": "6507444",
+      "market_p_at_call": 0.0215,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.018,
+      "our_p_untilted": 0.0163,
+      "question": "Will Solana dip to $30 in November?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.809,
+        "mean_move": -0.00216,
+        "median_move": -0.00284,
+        "n_independent": 77,
+        "n_overlapping": 1167
+      },
+      "spot": 71.04,
+      "subject": "SOLUSDT",
+      "theme": "Solana",
+      "themes": [
+        "Solana",
+        "Monthly",
+        "Hit Price",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 6328.4004429999995
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 15,
+      "deadline": "2026-12-01T04:59:59+00:00",
+      "event": "What will NVIDIA (NVDA) hit in November 2026?",
+      "kind": "touch-low",
+      "levels": [
+        136.0
+      ],
+      "liquidity_at_call": 9005.051,
+      "market_id": "6722272",
+      "market_p_at_call": 0.2,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.1779,
+      "our_p_untilted": 0.1457,
+      "question": "Will NVIDIA (NVDA) hit (LOW) $136 in November?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.809,
+        "median_move": 0.03168,
+        "n_independent": 86
+      },
+      "spot": 162.85000610351562,
+      "subject": "NVIDIA",
+      "theme": "Finance",
+      "themes": [
+        "Finance",
+        "NVIDIA"
+      ],
+      "track": "markets",
+      "unit": "USD",
+      "volume_at_call": 21510.234363999996
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 15,
+      "deadline": "2026-12-01T00:00:00+00:00",
+      "event": "What price will XRP hit in November?",
+      "kind": "touch-high",
+      "levels": [
+        1.2
+      ],
+      "liquidity_at_call": 26178.6158,
+      "market_id": "6753574",
+      "market_p_at_call": 0.17,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.1278,
+      "our_p_untilted": 0.144,
+      "question": "Will XRP reach $1.20 in November?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.841,
+        "mean_move": -0.01494,
+        "median_move": -0.02979,
+        "n_independent": 102,
+        "n_overlapping": 1542
+      },
+      "spot": 0.9685,
+      "subject": "XRPUSDT",
+      "theme": "XRP",
+      "themes": [
+        "XRP",
+        "Ripple",
+        "Monthly",
+        "Hit Price",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5807.459277999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 6,
+      "deadline": "2026-11-21T23:59:59+00:00",
+      "event": "Chelsea FC vs. Leeds United FC",
+      "kind": "win",
+      "levels": [],
+      "liquidity_at_call": 19922.527,
+      "market_id": "6834615",
+      "market_p_at_call": 0.515,
+      "method": "Poisson attack/defence strength, 120-match half-life, fitted per league; draw counts as NO. Measured on 17,269 matches: our Brier 0.5892 vs bookmaker 0.5719 — this model LOSES to the closing line by 0.017 and is published with that score visible. It beats a constant 45/26/29 guess (0.6484) and is closer than the book on 44.4% of matches.",
+      "our_p": 0.6548,
+      "our_p_untilted": null,
+      "question": "Will Chelsea FC win on 2026-11-21?",
+      "sample": {
+        "away": "Leeds",
+        "fitted_on": 17937,
+        "home": "Chelsea",
+        "lambda_away": 1.05,
+        "lambda_home": 2.307,
+        "league": "Premier League",
+        "league_matches": 173.6,
+        "matches_away": 101.5,
+        "matches_home": 154.3,
+        "p_away": 0.1586,
+        "p_draw": 0.1866,
+        "p_home": 0.6548,
+        "side": "home"
+      },
+      "spot": null,
+      "subject": "Chelsea",
+      "theme": "Sports",
+      "themes": [
+        "Sports",
+        "Premier League"
+      ],
+      "track": "sports",
+      "unit": "match",
+      "volume_at_call": 5017.193241
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 15,
+      "deadline": "2026-12-01T00:00:00+00:00",
+      "event": "What price will Solana hit in November?",
+      "kind": "touch-high",
+      "levels": [
+        90.0
+      ],
+      "liquidity_at_call": 48951.913,
+      "market_id": "6909888",
+      "market_p_at_call": 0.15,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.1371,
+      "our_p_untilted": 0.1757,
+      "question": "Will Solana reach $90 in November?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.809,
+        "mean_move": -0.00216,
+        "median_move": -0.00284,
+        "n_independent": 77,
+        "n_overlapping": 1167
+      },
+      "spot": 71.04,
+      "subject": "SOLUSDT",
+      "theme": "Solana",
+      "themes": [
+        "Solana",
+        "Monthly",
+        "Hit Price",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 9699.913577
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-17T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 17?",
+      "kind": "terminal-above",
+      "levels": [
+        1500.0
+      ],
+      "liquidity_at_call": 28397.08977,
+      "market_id": "6935814",
+      "market_p_at_call": 0.9655,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.9984,
+      "our_p_untilted": 0.999,
+      "question": "Will the price of Ethereum be above $1,500 on November 17?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.557,
+        "mean_move": -9e-05,
+        "median_move": 0.00015,
+        "n_independent": 1912,
+        "n_overlapping": 1912
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 10989.625095
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-17T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 17?",
+      "kind": "terminal-above",
+      "levels": [
+        1600.0
+      ],
+      "liquidity_at_call": 32758.87457,
+      "market_id": "6935822",
+      "market_p_at_call": 0.9375,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.9848,
+      "our_p_untilted": 0.9859,
+      "question": "Will the price of Ethereum be above $1,600 on November 17?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.557,
+        "mean_move": -9e-05,
+        "median_move": 0.00015,
+        "n_independent": 1912,
+        "n_overlapping": 1912
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 11268.044748
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-17T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 17?",
+      "kind": "terminal-above",
+      "levels": [
+        1800.0
+      ],
+      "liquidity_at_call": 34668.54345,
+      "market_id": "6935839",
+      "market_p_at_call": 0.566,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.5,
+      "our_p_untilted": 0.5565,
+      "question": "Will the price of Ethereum be above $1,800 on November 17?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.557,
+        "mean_move": -9e-05,
+        "median_move": 0.00015,
+        "n_independent": 1912,
+        "n_overlapping": 1912
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 9031.78153
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-17T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 17?",
+      "kind": "terminal-above",
+      "levels": [
+        1900.0
+      ],
+      "liquidity_at_call": 34723.1473,
+      "market_id": "6935848",
+      "market_p_at_call": 0.2,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.0842,
+      "our_p_untilted": 0.0926,
+      "question": "Will the price of Ethereum be above $1,900 on November 17?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.557,
+        "mean_move": -9e-05,
+        "median_move": 0.00015,
+        "n_independent": 1912,
+        "n_overlapping": 1912
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5136.225926
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 2,
+      "deadline": "2026-11-18T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 18?",
+      "kind": "terminal-above",
+      "levels": [
+        1600.0
+      ],
+      "liquidity_at_call": 34752.85854,
+      "market_id": "6967556",
+      "market_p_at_call": 0.9355,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.9576,
+      "our_p_untilted": 0.9618,
+      "question": "Will the price of Ethereum be above $1,600 on November 18?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.608,
+        "mean_move": -7e-05,
+        "median_move": 0.00072,
+        "n_independent": 955,
+        "n_overlapping": 1911
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 10305.266691
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 2,
+      "deadline": "2026-11-18T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 18?",
+      "kind": "terminal-above",
+      "levels": [
+        1800.0
+      ],
+      "liquidity_at_call": 31590.14355,
+      "market_id": "6967567",
+      "market_p_at_call": 0.5635,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.4804,
+      "our_p_untilted": 0.5515,
+      "question": "Will the price of Ethereum be above $1,800 on November 18?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.608,
+        "mean_move": -7e-05,
+        "median_move": 0.00072,
+        "n_independent": 955,
+        "n_overlapping": 1911
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5202.557169
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 2,
+      "deadline": "2026-11-18T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 18?",
+      "kind": "terminal-above",
+      "levels": [
+        1900.0
+      ],
+      "liquidity_at_call": 35958.4811,
+      "market_id": "6967574",
+      "market_p_at_call": 0.23,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.1361,
+      "our_p_untilted": 0.1596,
+      "question": "Will the price of Ethereum be above $1,900 on November 18?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.608,
+        "mean_move": -7e-05,
+        "median_move": 0.00072,
+        "n_independent": 955,
+        "n_overlapping": 1911
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5108.972854
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 2,
+      "deadline": "2026-11-18T00:00:00+00:00",
+      "event": "Bitcoin above ___ on November 18?",
+      "kind": "terminal-above",
+      "levels": [
+        68000.0
+      ],
+      "liquidity_at_call": 41446.5911,
+      "market_id": "6967626",
+      "market_p_at_call": 0.2,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.0967,
+      "our_p_untilted": 0.113,
+      "question": "Will the price of Bitcoin be above $68,000 on November 18?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.592,
+        "mean_move": 0.00246,
+        "median_move": 0.00245,
+        "n_independent": 951,
+        "n_overlapping": 1902
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5943.4011470000005
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 3,
+      "deadline": "2026-11-19T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 19?",
+      "kind": "terminal-above",
+      "levels": [
+        1500.0
+      ],
+      "liquidity_at_call": 30139.14313,
+      "market_id": "6990895",
+      "market_p_at_call": 0.974,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.9806,
+      "our_p_untilted": 0.9827,
+      "question": "Will the price of Ethereum be above $1,500 on November 19?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.638,
+        "mean_move": 0.00043,
+        "median_move": 0.00274,
+        "n_independent": 636,
+        "n_overlapping": 1910
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 10408.538523000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 3,
+      "deadline": "2026-11-19T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 19?",
+      "kind": "terminal-above",
+      "levels": [
+        1600.0
+      ],
+      "liquidity_at_call": 33782.26481,
+      "market_id": "6990900",
+      "market_p_at_call": 0.9105,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.9319,
+      "our_p_untilted": 0.9408,
+      "question": "Will the price of Ethereum be above $1,600 on November 19?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.638,
+        "mean_move": 0.00043,
+        "median_move": 0.00274,
+        "n_independent": 636,
+        "n_overlapping": 1910
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 16028.66432
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 3,
+      "deadline": "2026-11-19T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 19?",
+      "kind": "terminal-above",
+      "levels": [
+        1800.0
+      ],
+      "liquidity_at_call": 35031.2996,
+      "market_id": "6990912",
+      "market_p_at_call": 0.54,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.4874,
+      "our_p_untilted": 0.5497,
+      "question": "Will the price of Ethereum be above $1,800 on November 19?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.638,
+        "mean_move": 0.00043,
+        "median_move": 0.00274,
+        "n_independent": 636,
+        "n_overlapping": 1910
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5277.255445999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 3,
+      "deadline": "2026-11-19T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 19?",
+      "kind": "terminal-above",
+      "levels": [
+        1900.0
+      ],
+      "liquidity_at_call": 36406.6276,
+      "market_id": "6990918",
+      "market_p_at_call": 0.255,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.1822,
+      "our_p_untilted": 0.2136,
+      "question": "Will the price of Ethereum be above $1,900 on November 19?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.638,
+        "mean_move": 0.00043,
+        "median_move": 0.00274,
+        "n_independent": 636,
+        "n_overlapping": 1910
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5300.576263999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        1500.0
+      ],
+      "liquidity_at_call": 33960.10436,
+      "market_id": "7018415",
+      "market_p_at_call": 0.9565,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.9654,
+      "our_p_untilted": 0.968,
+      "question": "Will the price of Ethereum be above $1,500 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.659,
+        "mean_move": 0.0008,
+        "median_move": 0.00318,
+        "n_independent": 477,
+        "n_overlapping": 1909
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 11928.159089
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        1900.0
+      ],
+      "liquidity_at_call": 35584.4722,
+      "market_id": "7018440",
+      "market_p_at_call": 0.26,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.2043,
+      "our_p_untilted": 0.2415,
+      "question": "Will the price of Ethereum be above $1,900 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.659,
+        "mean_move": 0.0008,
+        "median_move": 0.00318,
+        "n_independent": 477,
+        "n_overlapping": 1909
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5529.06681
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        2000.0
+      ],
+      "liquidity_at_call": 35018.0312,
+      "market_id": "7018447",
+      "market_p_at_call": 0.105,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.0754,
+      "our_p_untilted": 0.0948,
+      "question": "Will the price of Ethereum be above $2,000 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.659,
+        "mean_move": 0.0008,
+        "median_move": 0.00318,
+        "n_independent": 477,
+        "n_overlapping": 1909
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 13628.85178
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Ethereum above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        2100.0
+      ],
+      "liquidity_at_call": 34662.16513,
+      "market_id": "7018453",
+      "market_p_at_call": 0.035,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.034,
+      "our_p_untilted": 0.043,
+      "question": "Will the price of Ethereum be above $2,100 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.659,
+        "mean_move": 0.0008,
+        "median_move": 0.00318,
+        "n_independent": 477,
+        "n_overlapping": 1909
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 14665.96051
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Bitcoin above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        60000.0
+      ],
+      "liquidity_at_call": 33995.3943,
+      "market_id": "7018477",
+      "market_p_at_call": 0.853,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.9053,
+      "our_p_untilted": 0.9184,
+      "question": "Will the price of Bitcoin be above $60,000 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.642,
+        "mean_move": 0.00496,
+        "median_move": 0.00326,
+        "n_independent": 475,
+        "n_overlapping": 1900
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 22237.768897
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Bitcoin above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        64000.0
+      ],
+      "liquidity_at_call": 51295.2688,
+      "market_id": "7018479",
+      "market_p_at_call": 0.6,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.5916,
+      "our_p_untilted": 0.6563,
+      "question": "Will the price of Bitcoin be above $64,000 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.642,
+        "mean_move": 0.00496,
+        "median_move": 0.00326,
+        "n_independent": 475,
+        "n_overlapping": 1900
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 9326.448074
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Bitcoin above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        68000.0
+      ],
+      "liquidity_at_call": 39499.1301,
+      "market_id": "7018483",
+      "market_p_at_call": 0.23,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.1768,
+      "our_p_untilted": 0.2132,
+      "question": "Will the price of Bitcoin be above $68,000 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.642,
+        "mean_move": 0.00496,
+        "median_move": 0.00326,
+        "n_independent": 475,
+        "n_overlapping": 1900
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 26040.786149000003
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Bitcoin above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        70000.0
+      ],
+      "liquidity_at_call": 40709.4255,
+      "market_id": "7018485",
+      "market_p_at_call": 0.11,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.0958,
+      "our_p_untilted": 0.1137,
+      "question": "Will the price of Bitcoin be above $70,000 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.642,
+        "mean_move": 0.00496,
+        "median_move": 0.00326,
+        "n_independent": 475,
+        "n_overlapping": 1900
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 39569.03913399999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 4,
+      "deadline": "2026-11-20T00:00:00+00:00",
+      "event": "Bitcoin above ___ on November 20?",
+      "kind": "terminal-above",
+      "levels": [
+        74000.0
+      ],
+      "liquidity_at_call": 34438.9197,
+      "market_id": "7018490",
+      "market_p_at_call": 0.027,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.0268,
+      "our_p_untilted": 0.0311,
+      "question": "Will the price of Bitcoin be above $74,000 on November 20?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.642,
+        "mean_move": 0.00496,
+        "median_move": 0.00326,
+        "n_independent": 475,
+        "n_overlapping": 1900
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 17195.876161
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in London on November 16?",
+      "kind": "band",
+      "levels": [
+        7.0,
+        7.0
+      ],
+      "liquidity_at_call": 2703.2302,
+      "market_id": "7030798",
+      "market_p_at_call": 0.105,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in London be 7°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EGLC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "London City Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1740.830377
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in London on November 16?",
+      "kind": "band",
+      "levels": [
+        10.0,
+        10.0
+      ],
+      "liquidity_at_call": 2084.8761,
+      "market_id": "7030802",
+      "market_p_at_call": 0.11,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in London be 10°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EGLC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "London City Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1042.523949
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Paris on November 16?",
+      "kind": "band",
+      "levels": [
+        11.0,
+        11.0
+      ],
+      "liquidity_at_call": 2453.1783,
+      "market_id": "7030814",
+      "market_p_at_call": 0.165,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Paris be 11°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LFPB",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Paris-Le Bourget International Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Paris",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Paris"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 756.248854
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Paris on November 16?",
+      "kind": "band",
+      "levels": [
+        13.0,
+        13.0
+      ],
+      "liquidity_at_call": 11792.715,
+      "market_id": "7030816",
+      "market_p_at_call": 0.29,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Paris be 13°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LFPB",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Paris-Le Bourget International Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Paris",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Paris"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1229.387833
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Paris on November 16?",
+      "kind": "band",
+      "levels": [
+        14.0,
+        14.0
+      ],
+      "liquidity_at_call": 1979.1213,
+      "market_id": "7030818",
+      "market_p_at_call": 0.075,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Paris be 14°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LFPB",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Paris-Le Bourget International Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Paris",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Paris"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 878.088079
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Seoul (Incheon) on November 16?",
+      "kind": "band",
+      "levels": [
+        16.0,
+        16.0
+      ],
+      "liquidity_at_call": 4285.5386,
+      "market_id": "7030838",
+      "market_p_at_call": 0.33,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.4483,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Seoul (Incheon) be 16°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKSI",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Incheon International Airport",
+        "station_bias_c": 0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seoul (Incheon)",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seoul (Incheon)"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1596.058899
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Seoul (Incheon) on November 16?",
+      "kind": "band",
+      "levels": [
+        17.0,
+        17.0
+      ],
+      "liquidity_at_call": 31090.382,
+      "market_id": "7030839",
+      "market_p_at_call": 0.495,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Seoul (Incheon) be 17°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKSI",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Incheon International Airport",
+        "station_bias_c": 0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seoul (Incheon)",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seoul (Incheon)"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 837.7706499999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Lucknow on November 16?",
+      "kind": "band",
+      "levels": [
+        29.0,
+        29.0
+      ],
+      "liquidity_at_call": 31195.0969,
+      "market_id": "7030879",
+      "market_p_at_call": 0.52,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Lucknow be 29°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "VILK",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Chaudhary Charan Singh International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Lucknow",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Lucknow"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 747.10393
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Lucknow on November 16?",
+      "kind": "band",
+      "levels": [
+        30.0,
+        30.0
+      ],
+      "liquidity_at_call": 1849.6502,
+      "market_id": "7030880",
+      "market_p_at_call": 0.16,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Lucknow be 30°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "VILK",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Chaudhary Charan Singh International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Lucknow",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Lucknow"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 518.1191230000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Munich on November 16?",
+      "kind": "band",
+      "levels": [
+        10.0,
+        10.0
+      ],
+      "liquidity_at_call": 2084.9971,
+      "market_id": "7030889",
+      "market_p_at_call": 0.09,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.10 °C), daily max, rounded to whole °C",
+      "our_p": 0.4483,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Munich be 10°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EDDM",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Munich Airport",
+        "station_bias_c": 0.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Munich",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Munich"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 703.642924
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Munich on November 16?",
+      "kind": "band",
+      "levels": [
+        11.0,
+        11.0
+      ],
+      "liquidity_at_call": 17085.47759,
+      "market_id": "7030890",
+      "market_p_at_call": 0.4255,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.10 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Munich be 11°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EDDM",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Munich Airport",
+        "station_bias_c": 0.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Munich",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Munich"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1411.1673289999997
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Munich on November 16?",
+      "kind": "band",
+      "levels": [
+        13.0,
+        13.0
+      ],
+      "liquidity_at_call": 3086.88564,
+      "market_id": "7030892",
+      "market_p_at_call": 0.058,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.10 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Munich be 13°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EDDM",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Munich Airport",
+        "station_bias_c": 0.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Munich",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Munich"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 752.3902959999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Tel Aviv on November 16?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 2094.2686,
+      "market_id": "7030899",
+      "market_p_at_call": 0.165,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.4138,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tel Aviv be 24°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LLBG",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Ben Gurion International Airport",
+        "station_bias_c": -0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tel Aviv",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tel Aviv"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1238.767789
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Tokyo on November 16?",
+      "kind": "band",
+      "levels": [
+        18.0,
+        18.0
+      ],
+      "liquidity_at_call": 1928.95885,
+      "market_id": "7030911",
+      "market_p_at_call": 0.046,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tokyo be 18°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RJTT",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Tokyo Haneda International Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tokyo",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tokyo"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 382.134213
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Tokyo on November 16?",
+      "kind": "band",
+      "levels": [
+        19.0,
+        19.0
+      ],
+      "liquidity_at_call": 14227.02855,
+      "market_id": "7030912",
+      "market_p_at_call": 0.384,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tokyo be 19°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RJTT",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Tokyo Haneda International Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tokyo",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tokyo"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 494.43992599999996
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Tokyo on November 16?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 44361.44819,
+      "market_id": "7030913",
+      "market_p_at_call": 0.5175,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tokyo be 20°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RJTT",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Tokyo Haneda International Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tokyo",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tokyo"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 777.2472720000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Tokyo on November 16?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 2104.2332,
+      "market_id": "7030914",
+      "market_p_at_call": 0.06,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Tokyo be 21°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RJTT",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Tokyo Haneda International Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Tokyo",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Tokyo"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 301.99208
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Shanghai on November 16?",
+      "kind": "band",
+      "levels": [
+        18.0,
+        18.0
+      ],
+      "liquidity_at_call": 2216.28219,
+      "market_id": "7030933",
+      "market_p_at_call": 0.073,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shanghai be 18°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSPD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Shanghai Pudong International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shanghai",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shanghai"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1078.326173
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Shanghai on November 16?",
+      "kind": "band",
+      "levels": [
+        19.0,
+        19.0
+      ],
+      "liquidity_at_call": 29970.31898,
+      "market_id": "7030934",
+      "market_p_at_call": 0.54,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.4483,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shanghai be 19°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSPD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Shanghai Pudong International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shanghai",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shanghai"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 873.764958
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Shanghai on November 16?",
+      "kind": "band",
+      "levels": [
+        20.0,
+        20.0
+      ],
+      "liquidity_at_call": 1437.7684,
+      "market_id": "7030935",
+      "market_p_at_call": 0.3705,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shanghai be 20°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSPD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Shanghai Pudong International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shanghai",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shanghai"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1470.802862
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Shanghai on November 16?",
+      "kind": "band",
+      "levels": [
+        21.0,
+        21.0
+      ],
+      "liquidity_at_call": 1985.97988,
+      "market_id": "7030936",
+      "market_p_at_call": 0.0235,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shanghai be 21°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSPD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Shanghai Pudong International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shanghai",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shanghai"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 582.5008379999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Singapore on November 16?",
+      "kind": "band",
+      "levels": [
+        30.0,
+        30.0
+      ],
+      "liquidity_at_call": 7251.8614,
+      "market_id": "7030945",
+      "market_p_at_call": 0.33,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Singapore be 30°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "WSSS",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Singapore Changi Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Singapore",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Singapore"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 602.68747
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Singapore on November 16?",
+      "kind": "band",
+      "levels": [
+        31.0,
+        31.0
+      ],
+      "liquidity_at_call": 2477.96758,
+      "market_id": "7030946",
+      "market_p_at_call": 0.381,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Singapore be 31°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "WSSS",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Singapore Changi Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Singapore",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Singapore"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 355.43313200000006
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Singapore on November 16?",
+      "kind": "band",
+      "levels": [
+        33.0,
+        33.0
+      ],
+      "liquidity_at_call": 1724.81088,
+      "market_id": "7030948",
+      "market_p_at_call": 0.0225,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Singapore be 33°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "WSSS",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Singapore Changi Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Singapore",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Singapore"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 471.90453199999996
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Milan on November 16?",
+      "kind": "band",
+      "levels": [
+        11.0,
+        11.0
+      ],
+      "liquidity_at_call": 15217.29133,
+      "market_id": "7030955",
+      "market_p_at_call": 0.3605,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Milan be 11°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LIMC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Milan Malpensa International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Milan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Milan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 755.4050500000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Milan on November 16?",
+      "kind": "band",
+      "levels": [
+        12.0,
+        12.0
+      ],
+      "liquidity_at_call": 8624.8293,
+      "market_id": "7030956",
+      "market_p_at_call": 0.455,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.4828,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Milan be 12°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LIMC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Milan Malpensa International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Milan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Milan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 479.027734
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Milan on November 16?",
+      "kind": "band",
+      "levels": [
+        13.0,
+        13.0
+      ],
+      "liquidity_at_call": 3484.5203,
+      "market_id": "7030957",
+      "market_p_at_call": 0.145,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Milan be 13°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LIMC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Milan Malpensa International Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Milan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Milan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1979.2945770000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Madrid on November 16?",
+      "kind": "band",
+      "levels": [
+        15.0,
+        15.0
+      ],
+      "liquidity_at_call": 1973.0333,
+      "market_id": "7030967",
+      "market_p_at_call": 0.425,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Madrid be 15°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "LEMD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Adolfo Suárez Madrid–Barajas Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Madrid",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Madrid"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 520.320646
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Warsaw on November 16?",
+      "kind": "band",
+      "levels": [
+        7.0,
+        7.0
+      ],
+      "liquidity_at_call": 1448.15238,
+      "market_id": "7030977",
+      "market_p_at_call": 0.1295,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Warsaw be 7°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EPWA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Warsaw Chopin Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Warsaw",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Warsaw"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 380.378005
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Warsaw on November 16?",
+      "kind": "band",
+      "levels": [
+        8.0,
+        8.0
+      ],
+      "liquidity_at_call": 3378.6762,
+      "market_id": "7030978",
+      "market_p_at_call": 0.435,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Warsaw be 8°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EPWA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Warsaw Chopin Airport",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Warsaw",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Warsaw"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 655.4759680000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Taipei on November 16?",
+      "kind": "band",
+      "levels": [
+        24.0,
+        24.0
+      ],
+      "liquidity_at_call": 6085.3348,
+      "market_id": "7030986",
+      "market_p_at_call": 0.265,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.2069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Taipei be 24°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RCSS",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Taipei Songshan International Airport",
+        "station_bias_c": 0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Taipei",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Taipei"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 391.586201
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Beijing on November 16?",
+      "kind": "band",
+      "levels": [
+        7.0,
+        7.0
+      ],
+      "liquidity_at_call": 2372.00478,
+      "market_id": "7031010",
+      "market_p_at_call": 0.301,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Beijing be 7°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZBAA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Beijing Capital International Airport",
+        "station_bias_c": 1.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Beijing",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Beijing"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1117.723367
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Beijing on November 16?",
+      "kind": "band",
+      "levels": [
+        8.0,
+        8.0
+      ],
+      "liquidity_at_call": 41402.04901,
+      "market_id": "7031011",
+      "market_p_at_call": 0.4895,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Beijing be 8°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZBAA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Beijing Capital International Airport",
+        "station_bias_c": 1.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Beijing",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Beijing"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 495.441311
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Beijing on November 16?",
+      "kind": "band",
+      "levels": [
+        9.0,
+        9.0
+      ],
+      "liquidity_at_call": 2212.2092,
+      "market_id": "7031012",
+      "market_p_at_call": 0.1395,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Beijing be 9°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZBAA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Beijing Capital International Airport",
+        "station_bias_c": 1.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Beijing",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Beijing"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 779.3851119999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Chengdu on November 16?",
+      "kind": "band",
+      "levels": [
+        15.0,
+        15.0
+      ],
+      "liquidity_at_call": 16286.0088,
+      "market_id": "7031033",
+      "market_p_at_call": 0.445,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chengdu be 15°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZUUU",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Chengdu Shuangliu International Airport",
+        "station_bias_c": 0.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chengdu",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chengdu"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 423.91468499999996
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Shenzhen on November 16?",
+      "kind": "band",
+      "levels": [
+        26.0,
+        26.0
+      ],
+      "liquidity_at_call": 1186.1009,
+      "market_id": "7031052",
+      "market_p_at_call": 0.18,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.5862,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shenzhen be 26°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZGSZ",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Shenzhen Bao'an International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shenzhen",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shenzhen"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 454.587924
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Shenzhen on November 16?",
+      "kind": "band",
+      "levels": [
+        27.0,
+        27.0
+      ],
+      "liquidity_at_call": 7028.284,
+      "market_id": "7031053",
+      "market_p_at_call": 0.52,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shenzhen be 27°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZGSZ",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Shenzhen Bao'an International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shenzhen",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shenzhen"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 500.235162
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Shenzhen on November 16?",
+      "kind": "band",
+      "levels": [
+        29.0,
+        29.0
+      ],
+      "liquidity_at_call": 1765.37521,
+      "market_id": "7031055",
+      "market_p_at_call": 0.0475,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Shenzhen be 29°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZGSZ",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Shenzhen Bao'an International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Shenzhen",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Shenzhen"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 509.52268000000004
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Moscow on November 16?",
+      "kind": "band",
+      "levels": [
+        5.0,
+        5.0
+      ],
+      "liquidity_at_call": 5709.6922,
+      "market_id": "7031065",
+      "market_p_at_call": 0.25,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.3793,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Moscow be 5°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "UUWW",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Vnukovo International Airport",
+        "station_bias_c": 0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Moscow",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Moscow"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 447.41721000000007
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Busan on November 16?",
+      "kind": "band",
+      "levels": [
+        18.0,
+        18.0
+      ],
+      "liquidity_at_call": 2135.6589,
+      "market_id": "7031090",
+      "market_p_at_call": 0.46,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.60 °C), daily max, rounded to whole °C",
+      "our_p": 0.2414,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Busan be 18°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RKPK",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Gimhae International Airport",
+        "station_bias_c": 0.6,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Busan",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Busan"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 400.748866
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Helsinki on November 16?",
+      "kind": "band",
+      "levels": [
+        5.0,
+        5.0
+      ],
+      "liquidity_at_call": 1885.35275,
+      "market_id": "7031119",
+      "market_p_at_call": 0.0215,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Helsinki be 5°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EFHK",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Helsinki Vantaa Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Helsinki",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Helsinki"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 766.2510030000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Helsinki on November 16?",
+      "kind": "band",
+      "levels": [
+        7.0,
+        7.0
+      ],
+      "liquidity_at_call": 21311.4657,
+      "market_id": "7031122",
+      "market_p_at_call": 0.63,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.5862,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Helsinki be 7°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EFHK",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Helsinki Vantaa Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Helsinki",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Helsinki"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 1646.6135350000002
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Helsinki on November 16?",
+      "kind": "band",
+      "levels": [
+        8.0,
+        8.0
+      ],
+      "liquidity_at_call": 1409.24417,
+      "market_id": "7031123",
+      "market_p_at_call": 0.047,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Helsinki be 8°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "EFHK",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Helsinki Vantaa Airport",
+        "station_bias_c": 0.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Helsinki",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Helsinki"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 556.240235
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Kuala Lumpur on November 16?",
+      "kind": "band",
+      "levels": [
+        31.0,
+        31.0
+      ],
+      "liquidity_at_call": 6173.4602,
+      "market_id": "7031138",
+      "market_p_at_call": 0.28,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Kuala Lumpur be 31°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "WMKK",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Kuala Lumpur International Airport",
+        "station_bias_c": 0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Kuala Lumpur",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Kuala Lumpur"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 348.75503
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Kuala Lumpur on November 16?",
+      "kind": "band",
+      "levels": [
+        33.0,
+        33.0
+      ],
+      "liquidity_at_call": 1731.6787,
+      "market_id": "7031140",
+      "market_p_at_call": 0.19,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Kuala Lumpur be 33°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "WMKK",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Kuala Lumpur International Airport",
+        "station_bias_c": 0.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Kuala Lumpur",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Kuala Lumpur"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 888.551167
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Jeddah on November 16?",
+      "kind": "band",
+      "levels": [
+        33.0,
+        33.0
+      ],
+      "liquidity_at_call": 1198.8026,
+      "market_id": "7031152",
+      "market_p_at_call": 0.13,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Jeddah be 33°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "OEJN",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "King Abdulaziz International Airport",
+        "station_bias_c": -1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Jeddah",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Jeddah"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 914.689269
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Jeddah on November 16?",
+      "kind": "band",
+      "levels": [
+        34.0,
+        34.0
+      ],
+      "liquidity_at_call": 2205.1483,
+      "market_id": "7031153",
+      "market_p_at_call": 0.435,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.4138,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Jeddah be 34°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "OEJN",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "King Abdulaziz International Airport",
+        "station_bias_c": -1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Jeddah",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Jeddah"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 529.701134
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Jeddah on November 16?",
+      "kind": "band",
+      "levels": [
+        35.0,
+        35.0
+      ],
+      "liquidity_at_call": 6949.2129,
+      "market_id": "7031154",
+      "market_p_at_call": 0.34,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Jeddah be 35°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "OEJN",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "King Abdulaziz International Airport",
+        "station_bias_c": -1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Jeddah",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Jeddah"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 358.029645
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Jeddah on November 16?",
+      "kind": "band",
+      "levels": [
+        36.0,
+        36.0
+      ],
+      "liquidity_at_call": 1353.71904,
+      "market_id": "7031155",
+      "market_p_at_call": 0.0415,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.30 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Jeddah be 36°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "OEJN",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "King Abdulaziz International Airport",
+        "station_bias_c": -1.3,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Jeddah",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Jeddah"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 310.745383
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Guangzhou on November 16?",
+      "kind": "band",
+      "levels": [
+        29.0,
+        29.0
+      ],
+      "liquidity_at_call": 10013.4232,
+      "market_id": "7031184",
+      "market_p_at_call": 0.39,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.50 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Guangzhou be 29°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZGGG",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Guangzhou Baiyun International Airport",
+        "station_bias_c": 1.5,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Guangzhou",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Guangzhou"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 501.157737
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Qingdao on November 16?",
+      "kind": "band",
+      "levels": [
+        11.0,
+        11.0
+      ],
+      "liquidity_at_call": 1572.43215,
+      "market_id": "7031195",
+      "market_p_at_call": 0.062,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -0.40 °C), daily max, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Qingdao be 11°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "ZSQD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Qingdao Jiaodong International Airport",
+        "station_bias_c": -0.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Qingdao",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Qingdao"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 342.58534000000003
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Karachi on November 16?",
+      "kind": "band",
+      "levels": [
+        33.0,
+        33.0
+      ],
+      "liquidity_at_call": 1754.8277,
+      "market_id": "7031213",
+      "market_p_at_call": 0.54,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.3793,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Karachi be 33°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "OPKC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Jinnah International Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Karachi",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Karachi"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 761.5696089999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Karachi on November 16?",
+      "kind": "band",
+      "levels": [
+        34.0,
+        34.0
+      ],
+      "liquidity_at_call": 3341.1578,
+      "market_id": "7031214",
+      "market_p_at_call": 0.235,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.70 °C), daily max, rounded to whole °C",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Karachi be 34°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "OPKC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Jinnah International Airport",
+        "station_bias_c": 0.7,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Karachi",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Karachi"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 572.110529
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Lowest temperature in London on November 16?",
+      "kind": "band",
+      "levels": [
+        4.0,
+        4.0
+      ],
+      "liquidity_at_call": 471.4781,
+      "market_id": "7031224",
+      "market_p_at_call": 0.355,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.10 °C), daily min, rounded to whole °C",
+      "our_p": 0.5862,
+      "our_p_untilted": null,
+      "question": "Will the lowest temperature in London be 4°C on November 16?",
+      "sample": {
+        "extreme": "min",
+        "icao": "EGLC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "London City Airport",
+        "station_bias_c": 1.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 486.544621
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Lowest temperature in London on November 16?",
+      "kind": "band",
+      "levels": [
+        5.0,
+        5.0
+      ],
+      "liquidity_at_call": 2603.8832,
+      "market_id": "7031225",
+      "market_p_at_call": 0.435,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.10 °C), daily min, rounded to whole °C",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the lowest temperature in London be 5°C on November 16?",
+      "sample": {
+        "extreme": "min",
+        "icao": "EGLC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "London City Airport",
+        "station_bias_c": 1.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 832.579428
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Lowest temperature in London on November 16?",
+      "kind": "band",
+      "levels": [
+        6.0,
+        6.0
+      ],
+      "liquidity_at_call": 665.9263,
+      "market_id": "7031226",
+      "market_p_at_call": 0.14,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.10 °C), daily min, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the lowest temperature in London be 6°C on November 16?",
+      "sample": {
+        "extreme": "min",
+        "icao": "EGLC",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "London City Airport",
+        "station_bias_c": 1.1,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "London",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "London"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 534.5051940000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Manila on November 16?",
+      "kind": "band",
+      "levels": [
+        33.0,
+        33.0
+      ],
+      "liquidity_at_call": 7695.92699,
+      "market_id": "7031240",
+      "market_p_at_call": 0.566,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.90 °C), daily max, rounded to whole °C",
+      "our_p": 0.5862,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Manila be 33°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "RPLL",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Ninoy Aquino International Airport",
+        "station_bias_c": 0.9,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Manila",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Manila"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 310.045344
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Lowest temperature in Seoul (Incheon) on November 16?",
+      "kind": "at-or-above",
+      "levels": [
+        12.0,
+        12.0
+      ],
+      "liquidity_at_call": 873.475,
+      "market_id": "7031280",
+      "market_p_at_call": 0.175,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +1.40 °C), daily min, rounded to whole °C",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the lowest temperature in Seoul (Incheon) be 12°C or higher on November 16?",
+      "sample": {
+        "extreme": "min",
+        "icao": "RKSI",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Incheon International Airport",
+        "station_bias_c": 1.4,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seoul (Incheon)",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seoul (Incheon)"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 372.393175
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in NYC on November 16?",
+      "kind": "band",
+      "levels": [
+        50.0,
+        51.0
+      ],
+      "liquidity_at_call": 1996.07391,
+      "market_id": "7033404",
+      "market_p_at_call": 0.059,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.31 °C), daily max, rounded to whole °F",
+      "our_p": 0.4483,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in New York City be between 50-51°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLGA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "LaGuardia Airport",
+        "station_bias_c": 0.31,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "NYC",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "NYC"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 748.7550880000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Dallas on November 16?",
+      "kind": "band",
+      "levels": [
+        54.0,
+        55.0
+      ],
+      "liquidity_at_call": 1246.32004,
+      "market_id": "7033421",
+      "market_p_at_call": 0.098,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 28 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °F",
+      "our_p": 0.4643,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Dallas be between 54-55°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KDAL",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Dallas Love Field",
+        "station_bias_c": 0.4,
+        "station_bias_days": 28
+      },
+      "spot": null,
+      "subject": "Dallas",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Dallas"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1617.366188
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Dallas on November 16?",
+      "kind": "band",
+      "levels": [
+        56.0,
+        57.0
+      ],
+      "liquidity_at_call": 1503.5134,
+      "market_id": "7033422",
+      "market_p_at_call": 0.245,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 28 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °F",
+      "our_p": 0.2857,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Dallas be between 56-57°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KDAL",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Dallas Love Field",
+        "station_bias_c": 0.4,
+        "station_bias_days": 28
+      },
+      "spot": null,
+      "subject": "Dallas",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Dallas"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1856.510973
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Dallas on November 16?",
+      "kind": "band",
+      "levels": [
+        58.0,
+        59.0
+      ],
+      "liquidity_at_call": 1018.8451,
+      "market_id": "7033423",
+      "market_p_at_call": 0.42,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 28 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °F",
+      "our_p": 0.1429,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Dallas be between 58-59°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KDAL",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Dallas Love Field",
+        "station_bias_c": 0.4,
+        "station_bias_days": 28
+      },
+      "spot": null,
+      "subject": "Dallas",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Dallas"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1348.70766
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Dallas on November 16?",
+      "kind": "band",
+      "levels": [
+        60.0,
+        61.0
+      ],
+      "liquidity_at_call": 1352.6686,
+      "market_id": "7033424",
+      "market_p_at_call": 0.21,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 28 errors this station actually made against the model over the last month (median +0.40 °C), daily max, rounded to whole °F",
+      "our_p": 0.0357,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Dallas be between 60-61°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KDAL",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Dallas Love Field",
+        "station_bias_c": 0.4,
+        "station_bias_days": 28
+      },
+      "spot": null,
+      "subject": "Dallas",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Dallas"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1519.815446
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Atlanta on November 16?",
+      "kind": "band",
+      "levels": [
+        54.0,
+        55.0
+      ],
+      "liquidity_at_call": 1993.5728,
+      "market_id": "7033432",
+      "market_p_at_call": 0.065,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.91 °C), daily max, rounded to whole °F",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Atlanta be between 54-55°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KATL",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Hartsfield Jackson Atlanta International Airport",
+        "station_bias_c": 0.91,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Atlanta",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Atlanta"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 692.7319769999999
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Atlanta on November 16?",
+      "kind": "band",
+      "levels": [
+        56.0,
+        57.0
+      ],
+      "liquidity_at_call": 17087.0023,
+      "market_id": "7033433",
+      "market_p_at_call": 0.46,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.91 °C), daily max, rounded to whole °F",
+      "our_p": 0.6552,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Atlanta be between 56-57°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KATL",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Hartsfield Jackson Atlanta International Airport",
+        "station_bias_c": 0.91,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Atlanta",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Atlanta"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1904.722749
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Atlanta on November 16?",
+      "kind": "band",
+      "levels": [
+        58.0,
+        59.0
+      ],
+      "liquidity_at_call": 2425.064,
+      "market_id": "7033434",
+      "market_p_at_call": 0.405,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.91 °C), daily max, rounded to whole °F",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Atlanta be between 58-59°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KATL",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Hartsfield Jackson Atlanta International Airport",
+        "station_bias_c": 0.91,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Atlanta",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Atlanta"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 745.010849
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Miami on November 16?",
+      "kind": "band",
+      "levels": [
+        78.0,
+        79.0
+      ],
+      "liquidity_at_call": 2319.9117,
+      "market_id": "7033444",
+      "market_p_at_call": 0.19,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.94 °C), daily max, rounded to whole °F",
+      "our_p": 0.3793,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Miami be between 78-79°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KMIA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Miami International Airport",
+        "station_bias_c": 0.94,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Miami",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Miami"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1265.7307010000002
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Miami on November 16?",
+      "kind": "band",
+      "levels": [
+        80.0,
+        81.0
+      ],
+      "liquidity_at_call": 21541.8911,
+      "market_id": "7033445",
+      "market_p_at_call": 0.635,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.94 °C), daily max, rounded to whole °F",
+      "our_p": 0.5172,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Miami be between 80-81°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KMIA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Miami International Airport",
+        "station_bias_c": 0.94,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Miami",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Miami"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 700.513521
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Miami on November 16?",
+      "kind": "band",
+      "levels": [
+        82.0,
+        83.0
+      ],
+      "liquidity_at_call": 1656.23231,
+      "market_id": "7033446",
+      "market_p_at_call": 0.145,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.94 °C), daily max, rounded to whole °F",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Miami be between 82-83°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KMIA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Miami International Airport",
+        "station_bias_c": 0.94,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Miami",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Miami"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 414.555387
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Chicago on November 16?",
+      "kind": "band",
+      "levels": [
+        50.0,
+        51.0
+      ],
+      "liquidity_at_call": 1438.0342,
+      "market_id": "7033455",
+      "market_p_at_call": 0.085,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.96 °C), daily max, rounded to whole °F",
+      "our_p": 0.5172,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chicago be between 50-51°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KORD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Chicago O'Hare International Airport",
+        "station_bias_c": 0.96,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chicago",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chicago"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 2462.4233099999997
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Chicago on November 16?",
+      "kind": "band",
+      "levels": [
+        52.0,
+        53.0
+      ],
+      "liquidity_at_call": 1549.1873,
+      "market_id": "7033456",
+      "market_p_at_call": 0.54,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.96 °C), daily max, rounded to whole °F",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chicago be between 52-53°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KORD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Chicago O'Hare International Airport",
+        "station_bias_c": 0.96,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chicago",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chicago"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1198.923293
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Chicago on November 16?",
+      "kind": "band",
+      "levels": [
+        54.0,
+        55.0
+      ],
+      "liquidity_at_call": 2316.2454,
+      "market_id": "7033457",
+      "market_p_at_call": 0.35,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.96 °C), daily max, rounded to whole °F",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chicago be between 54-55°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KORD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Chicago O'Hare International Airport",
+        "station_bias_c": 0.96,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chicago",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chicago"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1200.768943
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Chicago on November 16?",
+      "kind": "band",
+      "levels": [
+        56.0,
+        57.0
+      ],
+      "liquidity_at_call": 1310.94375,
+      "market_id": "7033458",
+      "market_p_at_call": 0.0205,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.96 °C), daily max, rounded to whole °F",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Chicago be between 56-57°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KORD",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Chicago O'Hare International Airport",
+        "station_bias_c": 0.96,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Chicago",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Chicago"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 420.628388
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Austin on November 16?",
+      "kind": "band",
+      "levels": [
+        50.0,
+        51.0
+      ],
+      "liquidity_at_call": 1299.1591,
+      "market_id": "7033463",
+      "market_p_at_call": 0.055,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.96 °C), daily max, rounded to whole °F",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Austin be between 50-51°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KAUS",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Austin Bergstrom International Airport",
+        "station_bias_c": 0.96,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Austin",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Austin"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 314.994822
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Austin on November 16?",
+      "kind": "band",
+      "levels": [
+        52.0,
+        53.0
+      ],
+      "liquidity_at_call": 1887.42119,
+      "market_id": "7033464",
+      "market_p_at_call": 0.2545,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.96 °C), daily max, rounded to whole °F",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Austin be between 52-53°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KAUS",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Austin Bergstrom International Airport",
+        "station_bias_c": 0.96,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Austin",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Austin"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1943.70986
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Austin on November 16?",
+      "kind": "band",
+      "levels": [
+        54.0,
+        55.0
+      ],
+      "liquidity_at_call": 1964.41088,
+      "market_id": "7033465",
+      "market_p_at_call": 0.3795,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.96 °C), daily max, rounded to whole °F",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Austin be between 54-55°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KAUS",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Austin Bergstrom International Airport",
+        "station_bias_c": 0.96,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Austin",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Austin"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1870.383542
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Austin on November 16?",
+      "kind": "band",
+      "levels": [
+        56.0,
+        57.0
+      ],
+      "liquidity_at_call": 2159.13559,
+      "market_id": "7033466",
+      "market_p_at_call": 0.274,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.96 °C), daily max, rounded to whole °F",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Austin be between 56-57°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KAUS",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Austin Bergstrom International Airport",
+        "station_bias_c": 0.96,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Austin",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Austin"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1744.151472
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Houston on November 16?",
+      "kind": "band",
+      "levels": [
+        56.0,
+        57.0
+      ],
+      "liquidity_at_call": 1302.9931,
+      "market_id": "7033476",
+      "market_p_at_call": 0.135,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.38 °C), daily max, rounded to whole °F",
+      "our_p": 0.005,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Houston be between 56-57°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KHOU",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "William P. Hobby Airport",
+        "station_bias_c": 0.38,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Houston",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Houston"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1266.268197
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Houston on November 16?",
+      "kind": "band",
+      "levels": [
+        60.0,
+        61.0
+      ],
+      "liquidity_at_call": 1327.7354,
+      "market_id": "7033478",
+      "market_p_at_call": 0.27,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.38 °C), daily max, rounded to whole °F",
+      "our_p": 0.4828,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Houston be between 60-61°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KHOU",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "William P. Hobby Airport",
+        "station_bias_c": 0.38,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Houston",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Houston"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 578.551599
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Houston on November 16?",
+      "kind": "band",
+      "levels": [
+        64.0,
+        65.0
+      ],
+      "liquidity_at_call": 649.75491,
+      "market_id": "7033480",
+      "market_p_at_call": 0.0655,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.38 °C), daily max, rounded to whole °F",
+      "our_p": 0.1724,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Houston be between 64-65°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KHOU",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "William P. Hobby Airport",
+        "station_bias_c": 0.38,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Houston",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Houston"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 471.114916
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Seattle on November 16?",
+      "kind": "band",
+      "levels": [
+        50.0,
+        51.0
+      ],
+      "liquidity_at_call": 531.4129,
+      "market_id": "7035566",
+      "market_p_at_call": 0.335,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.79 °C), daily max, rounded to whole °F",
+      "our_p": 0.2759,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Seattle be between 50-51°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KSEA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Seattle–Tacoma International Airport",
+        "station_bias_c": 0.79,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seattle",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seattle"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 316.90244099999995
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Seattle on November 16?",
+      "kind": "band",
+      "levels": [
+        54.0,
+        55.0
+      ],
+      "liquidity_at_call": 797.6605,
+      "market_id": "7035568",
+      "market_p_at_call": 0.13,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.79 °C), daily max, rounded to whole °F",
+      "our_p": 0.1034,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Seattle be between 54-55°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KSEA",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Seattle–Tacoma International Airport",
+        "station_bias_c": 0.79,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Seattle",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Seattle"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 366.913174
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Los Angeles on November 16?",
+      "kind": "band",
+      "levels": [
+        68.0,
+        69.0
+      ],
+      "liquidity_at_call": 11221.1565,
+      "market_id": "7035588",
+      "market_p_at_call": 0.365,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.21 °C), daily max, rounded to whole °F",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Los Angeles be between 68-69°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLAX",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Los Angeles International Airport",
+        "station_bias_c": -1.21,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Los Angeles",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Los Angeles"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 829.943423
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Los Angeles on November 16?",
+      "kind": "band",
+      "levels": [
+        70.0,
+        71.0
+      ],
+      "liquidity_at_call": 8419.072,
+      "market_id": "7035589",
+      "market_p_at_call": 0.465,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.21 °C), daily max, rounded to whole °F",
+      "our_p": 0.1379,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Los Angeles be between 70-71°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KLAX",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Los Angeles International Airport",
+        "station_bias_c": -1.21,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Los Angeles",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Los Angeles"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1746.1239990000001
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in San Francisco on November 16?",
+      "kind": "band",
+      "levels": [
+        60.0,
+        61.0
+      ],
+      "liquidity_at_call": 1982.4829,
+      "market_id": "7035600",
+      "market_p_at_call": 0.61,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.11 °C), daily max, rounded to whole °F",
+      "our_p": 0.3103,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in San Francisco be between 60-61°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KSFO",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "San Francisco International Airport",
+        "station_bias_c": 0.11,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "San Francisco",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "San Francisco"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 1994.890751
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in San Francisco on November 16?",
+      "kind": "band",
+      "levels": [
+        62.0,
+        63.0
+      ],
+      "liquidity_at_call": 5227.1931,
+      "market_id": "7035601",
+      "market_p_at_call": 0.255,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.11 °C), daily max, rounded to whole °F",
+      "our_p": 0.3448,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in San Francisco be between 62-63°F on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "KSFO",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "San Francisco International Airport",
+        "station_bias_c": 0.11,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "San Francisco",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "San Francisco"
+      ],
+      "track": "weather",
+      "unit": "°F",
+      "volume_at_call": 991.681148
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Buenos Aires on November 16?",
+      "kind": "band",
+      "levels": [
+        27.0,
+        27.0
+      ],
+      "liquidity_at_call": 1240.2519,
+      "market_id": "7035858",
+      "market_p_at_call": 0.14,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Buenos Aires be 27°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "SAEZ",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Ezeiza International Airport - Ministro Pistarini",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Buenos Aires",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Buenos Aires"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 613.10154
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Buenos Aires on November 16?",
+      "kind": "band",
+      "levels": [
+        29.0,
+        29.0
+      ],
+      "liquidity_at_call": 3605.5936,
+      "market_id": "7035865",
+      "market_p_at_call": 0.305,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median +0.20 °C), daily max, rounded to whole °C",
+      "our_p": 0.2069,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Buenos Aires be 29°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "SAEZ",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Ezeiza International Airport - Ministro Pistarini",
+        "station_bias_c": 0.2,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Buenos Aires",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Buenos Aires"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 483.68164099999996
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 1,
+      "deadline": "2026-11-16T23:59:59+00:00",
+      "event": "Highest temperature in Mexico City on November 16?",
+      "kind": "band",
+      "levels": [
+        23.0,
+        23.0
+      ],
+      "liquidity_at_call": 15064.775,
+      "market_id": "7035893",
+      "market_p_at_call": 0.43,
+      "method": "ecmwf_ifs025 ensemble median (51 members) plus the 29 errors this station actually made against the model over the last month (median -1.00 °C), daily max, rounded to whole °C",
+      "our_p": 0.0345,
+      "our_p_untilted": null,
+      "question": "Will the highest temperature in Mexico City be 23°C on November 16?",
+      "sample": {
+        "extreme": "max",
+        "icao": "MMMX",
+        "members": 51,
+        "resolution_rule": "metar-hourly-v2",
+        "station": "Mexico City Benito Juárez International Airport",
+        "station_bias_c": -1.0,
+        "station_bias_days": 29
+      },
+      "spot": null,
+      "subject": "Mexico City",
+      "theme": "Weather",
+      "themes": [
+        "Weather",
+        "Mexico City"
+      ],
+      "track": "weather",
+      "unit": "°C",
+      "volume_at_call": 332.697624
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 5,
+      "deadline": "2026-11-21T00:00:00+00:00",
+      "event": "Bitcoin above ___ on November 21?",
+      "kind": "terminal-above",
+      "levels": [
+        56000.0
+      ],
+      "liquidity_at_call": 39222.70509,
+      "market_id": "7042819",
+      "market_p_at_call": 0.9455,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.9737,
+      "our_p_untilted": 0.9768,
+      "question": "Will the price of Bitcoin be above $56,000 on November 21?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.658,
+        "mean_move": 0.00582,
+        "median_move": 0.00487,
+        "n_independent": 379,
+        "n_overlapping": 1899
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 19417.699944
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 5,
+      "deadline": "2026-11-21T00:00:00+00:00",
+      "event": "Bitcoin above ___ on November 21?",
+      "kind": "terminal-above",
+      "levels": [
+        62000.0
+      ],
+      "liquidity_at_call": 44660.3739,
+      "market_id": "7042829",
+      "market_p_at_call": 0.75,
+      "method": "empirical share of historical windows (terminal close), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.7773,
+      "our_p_untilted": 0.8062,
+      "question": "Will the price of Bitcoin be above $62,000 on November 21?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.658,
+        "mean_move": 0.00582,
+        "median_move": 0.00487,
+        "n_independent": 379,
+        "n_overlapping": 1899
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Weekly",
+        "Multi Strikes",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring",
+        "Hide From New"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 7424.745492
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 15,
+      "deadline": "2026-12-01T00:00:00+00:00",
+      "event": "What price will Bitcoin hit in November?",
+      "kind": "touch-high",
+      "levels": [
+        67500.0
+      ],
+      "liquidity_at_call": 71327.1077,
+      "market_id": "7043499",
+      "market_p_at_call": 0.65,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.5835,
+      "our_p_untilted": 0.7056,
+      "question": "Will Bitcoin reach $67,500 in November?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.755,
+        "mean_move": 0.01207,
+        "median_move": 0.01175,
+        "n_independent": 126,
+        "n_overlapping": 1892
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Monthly",
+        "Hit Price",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 64941.984715
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 15,
+      "deadline": "2026-12-01T00:00:00+00:00",
+      "event": "What price will Bitcoin hit in November?",
+      "kind": "touch-low",
+      "levels": [
+        52500.0
+      ],
+      "liquidity_at_call": 69483.2969,
+      "market_id": "7043500",
+      "market_p_at_call": 0.105,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.1189,
+      "our_p_untilted": 0.0988,
+      "question": "Will Bitcoin dip to $52,500 in November?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.755,
+        "mean_move": 0.01207,
+        "median_move": 0.01175,
+        "n_independent": 126,
+        "n_overlapping": 1892
+      },
+      "spot": 64856.76,
+      "subject": "BTCUSDT",
+      "theme": "Bitcoin",
+      "themes": [
+        "Bitcoin",
+        "Monthly",
+        "Hit Price",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 52431.847183
+    },
+    {
+      "called_at": "2026-11-15T05:26:40+00:00",
+      "days": 15,
+      "deadline": "2026-12-01T00:00:00+00:00",
+      "event": "What price will Ethereum hit in November?",
+      "kind": "touch-high",
+      "levels": [
+        1900.0
+      ],
+      "liquidity_at_call": 48626.5128,
+      "market_id": "7043509",
+      "market_p_at_call": 0.665,
+      "method": "empirical share of historical windows (running extreme), volatility-regime conditioned, ADX-gated momentum tilt",
+      "our_p": 0.5683,
+      "our_p_untilted": 0.7056,
+      "question": "Will Ethereum reach $1,900 in November?",
+      "sample": {
+        "conditional": true,
+        "lean": -0.776,
+        "mean_move": 0.00538,
+        "median_move": 0.00175,
+        "n_independent": 126,
+        "n_overlapping": 1902
+      },
+      "spot": 1807.17,
+      "subject": "ETHUSDT",
+      "theme": "Ethereum",
+      "themes": [
+        "Ethereum",
+        "Monthly",
+        "Hit Price",
+        "Crypto",
+        "Crypto Prices",
+        "Recurring"
+      ],
+      "track": "crypto",
+      "unit": "USD",
+      "volume_at_call": 5241.609478
+    }
+  ],
+  "count": 121,
+  "disclaimer": "Educational content - not financial advice.",
+  "issuer": "NeuPortal (neuportal.ai)",
+  "kind": "prediction-market-calls",
+  "note": "A call is proven to have existed no later than sealed_at_utc. From 2026-09-26 calls are sealed minutes after they are first recorded, before publication. Calls recorded earlier (2026-09-14 to 2026-09-26) went into the first seal together, so for them the proof starts at that seal, not at the moment of the call. Outcome fields arrive later from the venue and are not part of any seal.",
+  "reference": "Polymarket, Gamma API; outcomes are read from the venue after each deadline",
+  "scoring": "Brier score of our_p against the resolved outcome, compared with market_p_at_call; published including misses.",
+  "sealed_at_utc": "2026-11-15T05:26:49+00:00",
+  "sealed_fields": [
+    "market_id",
+    "question",
+    "event",
+    "theme",
+    "themes",
+    "track",
+    "subject",
+    "unit",
+    "kind",
+    "levels",
+    "deadline",
+    "days",
+    "spot",
+    "our_p",
+    "our_p_untilted",
+    "market_p_at_call",
+    "liquidity_at_call",
+    "volume_at_call",
+    "called_at",
+    "sample",
+    "method"
+  ]
+}
